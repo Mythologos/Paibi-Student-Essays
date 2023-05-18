@@ -173,8 +173,9 @@
         <word id="21" cont="。" pos="wp" ne="O" parent="0" relate="WP"/> 
       </sent> 
     </para>  
-    <para id="3" type=" "> 
-      <sent id="0" type="inParaPaibiB" cont="心怀感恩，以爱人之心拥抱社会。">
+    <para id="3" type=" ">
+      <!-- This should be outParaPaibiB instead of inParaPaibiB to match later items. -->
+      <sent id="0" type="outParaPaibiB" cont="心怀感恩，以爱人之心拥抱社会。">
         <word id="0" cont="心怀" pos="v" ne="O" parent="-1" relate="HED"/>  
         <word id="1" cont="感恩" pos="v" ne="O" parent="0" relate="VOB"/>  
         <word id="2" cont="，" pos="wp" ne="O" parent="0" relate="WP"/>  

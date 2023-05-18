@@ -74,8 +74,9 @@
         <word id="59" cont="。" pos="wp" ne="O" parent="1" relate="WP"/> 
       </sent> 
     </para>  
-    <para id="2" type=" "> 
-      <sent id="0" type="inParaPaibiB" cont="学会知恩图报，会使我们心中得到温暖。">
+    <para id="2" type=" ">
+       <!-- This should be outParaPaibiB rather than inParaPaibiB to go with the later branches.  -->
+      <sent id="0" type="outParaPaibiB" cont="学会知恩图报，会使我们心中得到温暖。">
         <word id="0" cont="学会" pos="n" ne="O" parent="1" relate="SBV"/>  
         <word id="1" cont="知恩图报" pos="i" ne="O" parent="4" relate="SBV"/>  
         <word id="2" cont="，" pos="wp" ne="O" parent="1" relate="WP"/>  
@@ -320,7 +321,7 @@
       </sent> 
     </para>  
     <para id="5" type=" "> 
-      <sent id="0" type="outParaPaibiI" cont="学会知恩图报，让我们懂得回报他人的快乐。"> 
+      <sent id="0" type="outParaPaibiI" cont="学会知恩图报，让我们懂得回报他人的快乐。">
         <word id="0" cont="学会" pos="n" ne="O" parent="1" relate="SBV"/>  
         <word id="1" cont="知恩图报" pos="i" ne="O" parent="-1" relate="HED"/>  
         <word id="2" cont="，" pos="wp" ne="O" parent="1" relate="WP"/>  

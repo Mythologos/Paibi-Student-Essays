@@ -505,8 +505,10 @@
         <word id="18" cont="的" pos="u" ne="O" parent="16" relate="RAD"/>  
         <word id="19" cont="赞美" pos="n" ne="O" parent="8" relate="COO"/>  
         <word id="20" cont="；" pos="wp" ne="O" parent="0" relate="WP"/> 
-      </sent>  
-      <sent id="1" type="inParaPaibiI" cont="是白芳礼老人三十年如一日地为贫困学子捐助物资；">
+      </sent>
+      <!-- This should be inParaPaibiB rather than inParaPaibiI;
+      there's not an earlier beginning to this parallelism otherwise, as far as I can tell. -->
+      <sent id="1" type="inParaPaibiB" cont="是白芳礼老人三十年如一日地为贫困学子捐助物资；">
         <word id="0" cont="是" pos="v" ne="O" parent="-1" relate="HED"/>  
         <word id="1" cont="白芳礼" pos="nh" ne="S-Nh" parent="2" relate="ATT"/>  
         <word id="2" cont="老人" pos="n" ne="O" parent="12" relate="SBV"/>  

@@ -400,8 +400,9 @@
         <word id="22" cont="的" pos="u" ne="O" parent="17" relate="RAD"/>  
         <word id="23" cont="哲理" pos="n" ne="O" parent="14" relate="VOB"/>  
         <word id="24" cont="；" pos="wp" ne="O" parent="8" relate="WP"/> 
-      </sent>  
-      <sent id="23" cont="当你遇到困难与挫折或因情绪不好而对她大发脾气时，她默默承受但仍坚强地开导；" type="outParaPaibiI">
+      </sent>
+      <!-- This should be inParaPaibiI rather than outParaPaibiI, as it goes with the prior item in the same paragraph. -->
+      <sent id="23" cont="当你遇到困难与挫折或因情绪不好而对她大发脾气时，她默默承受但仍坚强地开导；" type="inParaPaibiI">
         <word id="0" cont="当" pos="p" ne="O" parent="20" relate="ADV"/>  
         <word id="1" cont="你" pos="r" ne="O" parent="16" relate="ATT"/>  
         <word id="2" cont="遇到" pos="v" ne="O" parent="16" relate="ATT"/>  

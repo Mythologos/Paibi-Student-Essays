@@ -431,8 +431,9 @@
         <word id="52" cont="。" pos="wp" ne="O" parent="5" relate="WP"/> 
       </sent> 
     </para>  
-    <para id="5" type=" "> 
-      <sent id="0" cont="爱，最怕考验，最怕没有回应，最怕不被珍惜，就像被春天拒绝的花儿，只能死在皑皑白雪中，在还没有开放的时候。" type="inParaPaibiB">
+    <para id="5" type=" ">
+      <!-- This should be outParaPaibiB instead of inParaPaibiB to go with the last outParaPaibiE below. -->
+      <sent id="0" cont="爱，最怕考验，最怕没有回应，最怕不被珍惜，就像被春天拒绝的花儿，只能死在皑皑白雪中，在还没有开放的时候。" type="outParaPaibiB">
         <word id="0" cont="爱" pos="v" ne="O" parent="-1" relate="HED"/>  
         <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP"/>  
         <word id="2" cont="最" pos="d" ne="O" parent="3" relate="ADV"/>  

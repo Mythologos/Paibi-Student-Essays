@@ -67,8 +67,10 @@
         <word id="13" cont="。" pos="wp" ne="O" parent="0" relate="WP"/> 
       </sent> 
     </para>  
-    <para id="2" type=" "> 
-      <sent id="0" cont="感恩缕缕书香，因为它让我感受到了人性的美丽。" type="inParaPaibiB">
+    <para id="2" type=" ">
+      <!-- This should be outParaPaibiB rather than inParaPaibiB,
+      as it goes with a later outParaPaibiI in another paragraph. -->
+      <sent id="0" cont="感恩缕缕书香，因为它让我感受到了人性的美丽。" type="outParaPaibiB">
         <word id="0" cont="感恩缕缕" pos="v" ne="O" parent="-1" relate="HED"/>  
         <word id="1" cont="书香" pos="n" ne="O" parent="0" relate="VOB"/>  
         <word id="2" cont="，" pos="wp" ne="O" parent="0" relate="WP"/>  

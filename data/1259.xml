@@ -174,7 +174,11 @@
         <word id="19" cont="如此" pos="r" ne="O" parent="20" relate="ADV"/>  
         <word id="20" cont="光辉" pos="a" ne="O" parent="17" relate="VOB"/>  
         <word id="21" cont="。" pos="wp" ne="O" parent="0" relate="WP"/> 
-      </sent>  
+      </sent>
+      <!-- This could be outParaPaibiI, as it goes well with a prior outParaPaibiB.
+      However, that outParaPaibiB could also go with the last outParaPaibiE.
+      Either they all go together, or they could be split up such that
+      the outermost and innermost are separate. -->
       <sent id="5" cont="学会依靠，依靠的是来自身边的“阳光”。" type="outParaPaibiB">
         <word id="0" cont="学会" pos="n" ne="O" parent="1" relate="SBV"/>  
         <word id="1" cont="依靠" pos="v" ne="O" parent="-1" relate="HED"/>  

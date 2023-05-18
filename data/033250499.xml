@@ -402,8 +402,9 @@
         <word id="44" cont="。" pos="wp" ne="O" parent="14" relate="WP"/> 
       </sent> 
     </para>  
-    <para id="5" type=" "> 
-      <sent id="0" type="inParaPaibiE" cont="让爱洒满人间，是民族斗士曼德拉跨越民族的大爱。">
+    <para id="5" type=" ">
+      <!-- Should be swapped from inParaPaibiE to outParaPaibiE -->
+      <sent id="0" type="outParaPaibiE" cont="让爱洒满人间，是民族斗士曼德拉跨越民族的大爱。">
         <word id="0" cont="让" pos="v" ne="O" parent="6" relate="SBV"/>  
         <word id="1" cont="爱" pos="v" ne="O" parent="0" relate="VOB"/>  
         <word id="2" cont="洒" pos="v" ne="O" parent="1" relate="VOB"/>  

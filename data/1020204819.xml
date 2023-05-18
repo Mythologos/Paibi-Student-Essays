@@ -518,8 +518,10 @@
         <word id="15" cont="的" pos="u" ne="O" parent="14" relate="RAD"/>  
         <word id="16" cont="知识" pos="n" ne="O" parent="12" relate="VOB"/>  
         <word id="17" cont="；" pos="wp" ne="O" parent="4" relate="WP"/> 
-      </sent>  
-      <sent id="1" type="outParaPaibiE" cont="理想，虽然不以具体形态出现，却对我们有着深刻影响；">
+      </sent>
+      <!-- This should be inParaPaibiE rather than outParaPaibiE,
+      as it's in the same paragraph as the prior item, with which it is parallel. -->
+      <sent id="1" type="inParaPaibiE" cont="理想，虽然不以具体形态出现，却对我们有着深刻影响；">
         <word id="0" cont="理想" pos="n" ne="O" parent="7" relate="SBV"/>  
         <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP"/>  
         <word id="2" cont="虽然" pos="c" ne="O" parent="7" relate="ADV"/>  

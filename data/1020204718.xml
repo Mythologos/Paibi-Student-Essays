@@ -461,7 +461,7 @@
       </sent> 
     </para>  
     <para id="5" type=" "> 
-      <sent id="0" type="outParaPaibiE" cont="有一种东西，叫做爱，是人的生命中。"> 
+      <sent id="0" type="outParaPaibiI" cont="有一种东西，叫做爱，是人的生命中。">
         <word id="0" cont="有" pos="v" ne="O" parent="-1" relate="HED"/>  
         <word id="1" cont="一" pos="m" ne="O" parent="2" relate="ATT"/>  
         <word id="2" cont="种" pos="q" ne="O" parent="3" relate="ATT"/>  
@@ -476,7 +476,11 @@
         <word id="11" cont="生命" pos="n" ne="O" parent="12" relate="ATT"/>  
         <word id="12" cont="中" pos="nd" ne="O" parent="8" relate="VOB"/>  
         <word id="13" cont="。" pos="wp" ne="O" parent="0" relate="WP"/> 
-      </sent>  
+      </sent>
+      <!-- This is debatable. Either we could change the former tag from outParaPaibiE to outParaPaibiI,
+      or we could get rid of this one. It's connected, but not as strongly as the prior three.
+      I lean toward the former because I don't want to *remove* annotations
+      unless it is obvious that a mistake was made. -->
       <sent id="1" type="outParaPaibiE" cont="社会的生命中不可脱离之轻。">
         <word id="0" cont="社会" pos="n" ne="O" parent="2" relate="ATT"/>  
         <word id="1" cont="的" pos="u" ne="O" parent="0" relate="RAD"/>  

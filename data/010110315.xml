@@ -13,8 +13,9 @@
         <word id="4" cont="回报" pos="v" ne="O" parent="3" relate="VOB"/> 
       </sent> 
     </para>  
-    <para id="1" type=" "> 
-      <sent id="0" type="inParaPaibiI" cont="乌鸦懂得感恩，于是便有了“乌鸦反哺”的佳话；">
+    <para id="1" type=" ">
+      <!-- This should be inParaPaibiB rather than inParaPaibiI, given that nothing before it exists to go with it. -->
+      <sent id="0" type="inParaPaibiB" cont="乌鸦懂得感恩，于是便有了“乌鸦反哺”的佳话；">
         <word id="0" cont="乌鸦" pos="n" ne="O" parent="1" relate="SBV"/>  
         <word id="1" cont="懂得" pos="v" ne="O" parent="-1" relate="HED"/>  
         <word id="2" cont="感恩" pos="v" ne="O" parent="1" relate="VOB"/>  
