@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document>
+
+<xml4nlp> 
+  <doc score="40.00" score1="42.00" score2="38.00" score3="" essayType=" " type=" "> 
+    <scrawl add="0" remove="0" modify="0" error="0"/>  
+    <para id="0" type=" "/>  
+    <para id="1" type=" "> 
+      <sent id="0" type=" " cont="通过上面材料两条鱼一起游泳，遇到一条老鱼从另一方向游来，老鱼向他们点点头，说：“早上好，孩子们，水怎么样？”"> 
+        <word id="0" cont="通过" pos="p" ne="O" parent="7" relate="ADV"/>  
+        <word id="1" cont="上面" pos="nd" ne="O" parent="2" relate="ATT"/>  
+        <word id="2" cont="材料" pos="n" ne="O" parent="5" relate="ATT"/>  
+        <word id="3" cont="两" pos="m" ne="O" parent="4" relate="ATT"/>  
+        <word id="4" cont="条" pos="q" ne="O" parent="5" relate="ATT"/>  
+        <word id="5" cont="鱼" pos="n" ne="O" parent="0" relate="POB"/>  
+        <word id="6" cont="一起" pos="nl" ne="O" parent="7" relate="ADV"/>  
+        <word id="7" cont="游泳" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="8" cont="，" pos="wp" ne="O" parent="7" relate="WP"/>  
+        <word id="9" cont="遇到" pos="v" ne="O" parent="7" relate="COO"/>  
+        <word id="10" cont="一" pos="m" ne="O" parent="11" relate="ATT"/>  
+        <word id="11" cont="条" pos="q" ne="O" parent="13" relate="ATT"/>  
+        <word id="12" cont="老" pos="a" ne="O" parent="13" relate="ATT"/>  
+        <word id="13" cont="鱼" pos="n" ne="O" parent="9" relate="VOB"/>  
+        <word id="14" cont="从" pos="p" ne="O" parent="18" relate="ADV"/>  
+        <word id="15" cont="另" pos="r" ne="O" parent="16" relate="ATT"/>  
+        <word id="16" cont="一" pos="m" ne="O" parent="17" relate="ATT"/>  
+        <word id="17" cont="方向" pos="n" ne="O" parent="14" relate="POB"/>  
+        <word id="18" cont="游" pos="v" ne="O" parent="9" relate="COO"/>  
+        <word id="19" cont="来" pos="v" ne="O" parent="18" relate="CMP"/>  
+        <word id="20" cont="，" pos="wp" ne="O" parent="18" relate="WP"/>  
+        <word id="21" cont="老鱼" pos="nh" ne="O" parent="24" relate="SBV"/>  
+        <word id="22" cont="向" pos="p" ne="O" parent="24" relate="ADV"/>  
+        <word id="23" cont="他们" pos="r" ne="O" parent="22" relate="POB"/>  
+        <word id="24" cont="点点" pos="v" ne="O" parent="18" relate="COO"/>  
+        <word id="25" cont="头" pos="n" ne="O" parent="24" relate="VOB"/>  
+        <word id="26" cont="，" pos="wp" ne="O" parent="24" relate="WP"/>  
+        <word id="27" cont="说" pos="v" ne="O" parent="24" relate="COO"/>  
+        <word id="28" cont="：" pos="wp" ne="O" parent="27" relate="WP"/>  
+        <word id="29" cont="“" pos="wp" ne="O" parent="31" relate="WP"/>  
+        <word id="30" cont="早上" pos="nt" ne="O" parent="31" relate="ADV"/>  
+        <word id="31" cont="好" pos="a" ne="O" parent="27" relate="VOB"/>  
+        <word id="32" cont="，" pos="wp" ne="O" parent="31" relate="WP"/>  
+        <word id="33" cont="孩子" pos="n" ne="O" parent="31" relate="COO"/>  
+        <word id="34" cont="们" pos="k" ne="O" parent="33" relate="RAD"/>  
+        <word id="35" cont="，" pos="wp" ne="O" parent="33" relate="WP"/>  
+        <word id="36" cont="水" pos="n" ne="O" parent="37" relate="SBV"/>  
+        <word id="37" cont="怎么样" pos="r" ne="O" parent="33" relate="COO"/>  
+        <word id="38" cont="？" pos="wp" ne="O" parent="37" relate="WP"/>  
+        <word id="39" cont="”" pos="wp" ne="O" parent="31" relate="WP"/> 
+      </sent>  
+      <sent id="1" type=" " cont="两条小鱼一怔，接着往前游。"> 
+        <word id="0" cont="两" pos="m" ne="O" parent="1" relate="ATT"/>  
+        <word id="1" cont="条" pos="q" ne="O" parent="3" relate="ATT"/>  
+        <word id="2" cont="小" pos="a" ne="O" parent="3" relate="ATT"/>  
+        <word id="3" cont="鱼" pos="n" ne="O" parent="5" relate="SBV"/>  
+        <word id="4" cont="一" pos="d" ne="O" parent="5" relate="ADV"/>  
+        <word id="5" cont="怔" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="6" cont="，" pos="wp" ne="O" parent="5" relate="WP"/>  
+        <word id="7" cont="接着" pos="c" ne="O" parent="10" relate="ADV"/>  
+        <word id="8" cont="往" pos="p" ne="O" parent="10" relate="ADV"/>  
+        <word id="9" cont="前" pos="nd" ne="O" parent="8" relate="POB"/>  
+        <word id="10" cont="游" pos="v" ne="O" parent="5" relate="COO"/>  
+        <word id="11" cont="。" pos="wp" ne="O" parent="5" relate="WP"/> 
+      </sent>  
+      <sent id="2" type=" " cont="游了一会儿，其中一条小鱼看了另一条小鱼一眼，忍不住说：“水到底是什么东西？"> 
+        <word id="0" cont="游" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="1" cont="了" pos="u" ne="O" parent="0" relate="RAD"/>  
+        <word id="2" cont="一会儿" pos="m" ne="O" parent="0" relate="CMP"/>  
+        <word id="3" cont="，" pos="wp" ne="O" parent="0" relate="WP"/>  
+        <word id="4" cont="其中" pos="r" ne="O" parent="8" relate="ATT"/>  
+        <word id="5" cont="一" pos="m" ne="O" parent="6" relate="ATT"/>  
+        <word id="6" cont="条" pos="q" ne="O" parent="8" relate="ATT"/>  
+        <word id="7" cont="小" pos="a" ne="O" parent="8" relate="ATT"/>  
+        <word id="8" cont="鱼" pos="n" ne="O" parent="9" relate="SBV"/>  
+        <word id="9" cont="看" pos="v" ne="O" parent="0" relate="COO"/>  
+        <word id="10" cont="了" pos="u" ne="O" parent="9" relate="RAD"/>  
+        <word id="11" cont="另" pos="r" ne="O" parent="12" relate="ATT"/>  
+        <word id="12" cont="一" pos="m" ne="O" parent="13" relate="ATT"/>  
+        <word id="13" cont="条" pos="q" ne="O" parent="15" relate="ATT"/>  
+        <word id="14" cont="小" pos="a" ne="O" parent="15" relate="ATT"/>  
+        <word id="15" cont="鱼" pos="n" ne="O" parent="17" relate="ATT"/>  
+        <word id="16" cont="一" pos="m" ne="O" parent="17" relate="ATT"/>  
+        <word id="17" cont="眼" pos="q" ne="O" parent="9" relate="VOB"/>  
+        <word id="18" cont="，" pos="wp" ne="O" parent="9" relate="WP"/>  
+        <word id="19" cont="忍不住" pos="v" ne="O" parent="20" relate="ADV"/>  
+        <word id="20" cont="说" pos="v" ne="O" parent="9" relate="COO"/>  
+        <word id="21" cont="：" pos="wp" ne="O" parent="20" relate="WP"/>  
+        <word id="22" cont="“" pos="wp" ne="O" parent="25" relate="WP"/>  
+        <word id="23" cont="水" pos="n" ne="O" parent="25" relate="SBV"/>  
+        <word id="24" cont="到底" pos="d" ne="O" parent="25" relate="ADV"/>  
+        <word id="25" cont="是" pos="v" ne="O" parent="20" relate="VOB"/>  
+        <word id="26" cont="什么" pos="r" ne="O" parent="27" relate="ATT"/>  
+        <word id="27" cont="东西" pos="n" ne="O" parent="25" relate="VOB"/>  
+        <word id="28" cont="？" pos="wp" ne="O" parent="25" relate="WP"/> 
+      </sent>  
+      <sent id="3" type=" " cont="”"> 
+        <word id="0" cont="”" pos="wp" ne="O" parent="-1" relate="HED"/> 
+      </sent> 
+    </para>  
+    <para id="2" type=" "> 
+      <sent id="0" type=" " cont="对，水是什么东西呢？"> 
+        <word id="0" cont="对" pos="a" ne="O" parent="3" relate="ADV"/>  
+        <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP"/>  
+        <word id="2" cont="水" pos="n" ne="O" parent="3" relate="SBV"/>  
+        <word id="3" cont="是" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="4" cont="什么" pos="r" ne="O" parent="5" relate="ATT"/>  
+        <word id="5" cont="东西" pos="n" ne="O" parent="3" relate="VOB"/>  
+        <word id="6" cont="呢" pos="u" ne="O" parent="3" relate="RAD"/>  
+        <word id="7" cont="？" pos="wp" ne="O" parent="3" relate="WP"/> 
+      </sent>  
+      <sent id="1" type=" " cont="我们生活中最常见而又不可或缺的东西，恰恰被我们忽视才会产生这样的疑问的。"> 
+        <word id="0" cont="我们" pos="r" ne="O" parent="1" relate="ATT"/>  
+        <word id="1" cont="生活" pos="v" ne="O" parent="2" relate="ATT"/>  
+        <word id="2" cont="中" pos="nd" ne="O" parent="9" relate="ATT"/>  
+        <word id="3" cont="最" pos="d" ne="O" parent="4" relate="ADV"/>  
+        <word id="4" cont="常见" pos="a" ne="O" parent="9" relate="ATT"/>  
+        <word id="5" cont="而" pos="c" ne="O" parent="7" relate="ADV"/>  
+        <word id="6" cont="又" pos="d" ne="O" parent="7" relate="ADV"/>  
+        <word id="7" cont="不可或缺" pos="i" ne="O" parent="4" relate="COO"/>  
+        <word id="8" cont="的" pos="u" ne="O" parent="7" relate="RAD"/>  
+        <word id="9" cont="东西" pos="n" ne="O" parent="14" relate="FOB"/>  
+        <word id="10" cont="，" pos="wp" ne="O" parent="9" relate="WP"/>  
+        <word id="11" cont="恰恰" pos="d" ne="O" parent="14" relate="ADV"/>  
+        <word id="12" cont="被" pos="p" ne="O" parent="14" relate="ADV"/>  
+        <word id="13" cont="我们" pos="r" ne="O" parent="12" relate="POB"/>  
+        <word id="14" cont="忽视" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="15" cont="才" pos="d" ne="O" parent="16" relate="ADV"/>  
+        <word id="16" cont="会" pos="v" ne="O" parent="17" relate="ADV"/>  
+        <word id="17" cont="产生" pos="v" ne="O" parent="14" relate="VOB"/>  
+        <word id="18" cont="这样" pos="r" ne="O" parent="20" relate="ATT"/>  
+        <word id="19" cont="的" pos="u" ne="O" parent="18" relate="RAD"/>  
+        <word id="20" cont="疑问" pos="n" ne="O" parent="17" relate="VOB"/>  
+        <word id="21" cont="的" pos="u" ne="O" parent="17" relate="RAD"/>  
+        <word id="22" cont="。" pos="wp" ne="O" parent="14" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="3" type=" "> 
+      <sent id="0" type=" " cont="水到底是什么东西？"> 
+        <word id="0" cont="水" pos="n" ne="O" parent="2" relate="SBV"/>  
+        <word id="1" cont="到底" pos="d" ne="O" parent="2" relate="ADV"/>  
+        <word id="2" cont="是" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="3" cont="什么" pos="r" ne="O" parent="4" relate="ATT"/>  
+        <word id="4" cont="东西" pos="n" ne="O" parent="2" relate="VOB"/>  
+        <word id="5" cont="？" pos="wp" ne="O" parent="2" relate="WP"/> 
+      </sent>  
+      <sent id="1" type=" " cont="水是我们的生活源泉。"> 
+        <word id="0" cont="水" pos="n" ne="O" parent="1" relate="SBV"/>  
+        <word id="1" cont="是" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="2" cont="我们" pos="r" ne="O" parent="5" relate="ATT"/>  
+        <word id="3" cont="的" pos="u" ne="O" parent="2" relate="RAD"/>  
+        <word id="4" cont="生活" pos="v" ne="O" parent="5" relate="ATT"/>  
+        <word id="5" cont="源泉" pos="n" ne="O" parent="1" relate="VOB"/>  
+        <word id="6" cont="。" pos="wp" ne="O" parent="1" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="4" type=" "> 
+      <sent id="0" type="outParaPaibiB" cont="水对于鱼来说是它们可以自由自由游玩的物质保证"> 
+        <word id="0" cont="水" pos="n" ne="O" parent="4" relate="SBV"/>  
+        <word id="1" cont="对于" pos="p" ne="O" parent="4" relate="ADV"/>  
+        <word id="2" cont="鱼" pos="n" ne="O" parent="1" relate="POB"/>  
+        <word id="3" cont="来说" pos="u" ne="O" parent="1" relate="RAD"/>  
+        <word id="4" cont="是" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="5" cont="它们" pos="r" ne="O" parent="8" relate="SBV"/>  
+        <word id="6" cont="可以" pos="v" ne="O" parent="8" relate="ADV"/>  
+        <word id="7" cont="自由自由" pos="d" ne="O" parent="8" relate="ADV"/>  
+        <word id="8" cont="游玩" pos="v" ne="O" parent="10" relate="ATT"/>  
+        <word id="9" cont="的" pos="u" ne="O" parent="8" relate="RAD"/>  
+        <word id="10" cont="物质" pos="n" ne="O" parent="11" relate="ATT"/>  
+        <word id="11" cont="保证" pos="v" ne="O" parent="4" relate="VOB"/> 
+      </sent> 
+    </para>  
+    <para id="5" type=" "> 
+      <sent id="0" type="outParaPaibiI" cont="水对于花朵来说是让它们开的更加炫彩夺目的生命源泉"> 
+        <word id="0" cont="水" pos="n" ne="O" parent="4" relate="SBV"/>  
+        <word id="1" cont="对于" pos="p" ne="O" parent="4" relate="ADV"/>  
+        <word id="2" cont="花朵" pos="n" ne="O" parent="1" relate="POB"/>  
+        <word id="3" cont="来说" pos="u" ne="O" parent="1" relate="RAD"/>  
+        <word id="4" cont="是" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="5" cont="让" pos="v" ne="O" parent="13" relate="ATT"/>  
+        <word id="6" cont="它们" pos="r" ne="O" parent="5" relate="DBL"/>  
+        <word id="7" cont="开" pos="v" ne="O" parent="5" relate="VOB"/>  
+        <word id="8" cont="的" pos="u" ne="O" parent="7" relate="RAD"/>  
+        <word id="9" cont="更加" pos="d" ne="O" parent="10" relate="ADV"/>  
+        <word id="10" cont="炫彩夺目" pos="i" ne="O" parent="13" relate="ATT"/>  
+        <word id="11" cont="的" pos="u" ne="O" parent="10" relate="RAD"/>  
+        <word id="12" cont="生命" pos="n" ne="O" parent="13" relate="ATT"/>  
+        <word id="13" cont="源泉" pos="n" ne="O" parent="4" relate="VOB"/> 
+      </sent> 
+    </para>  
+    <para id="6" type=" "> 
+      <sent id="0" type="outParaPaibiE" cont="水对于地球人来说是让我们生存的更加健康的生命源泉。"> 
+        <word id="0" cont="水" pos="n" ne="O" parent="4" relate="SBV"/>  
+        <word id="1" cont="对于" pos="p" ne="O" parent="4" relate="ADV"/>  
+        <word id="2" cont="地球人" pos="n" ne="O" parent="1" relate="POB"/>  
+        <word id="3" cont="来说" pos="u" ne="O" parent="1" relate="RAD"/>  
+        <word id="4" cont="是" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="5" cont="让" pos="v" ne="O" parent="4" relate="VOB"/>  
+        <word id="6" cont="我们" pos="r" ne="O" parent="5" relate="DBL"/>  
+        <word id="7" cont="生存" pos="v" ne="O" parent="13" relate="ATT"/>  
+        <word id="8" cont="的" pos="u" ne="O" parent="7" relate="RAD"/>  
+        <word id="9" cont="更加" pos="d" ne="O" parent="10" relate="ADV"/>  
+        <word id="10" cont="健康" pos="a" ne="O" parent="13" relate="ATT"/>  
+        <word id="11" cont="的" pos="u" ne="O" parent="10" relate="RAD"/>  
+        <word id="12" cont="生命" pos="n" ne="O" parent="13" relate="ATT"/>  
+        <word id="13" cont="源泉" pos="n" ne="O" parent="5" relate="VOB"/>  
+        <word id="14" cont="。" pos="wp" ne="O" parent="4" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="7" type=" "> 
+      <sent id="0" type="InSentenceBIE" cont="是水让我们的世界更加丰富多彩，更加快速发展，更加生活美好。"> 
+        <word id="0" cont="是" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="1" cont="水" pos="n" ne="O" parent="2" relate="SBV"/>  
+        <word id="2" cont="让" pos="v" ne="O" parent="0" relate="VOB"/>  
+        <word id="3" cont="我们" pos="r" ne="O" parent="5" relate="ATT"/>  
+        <word id="4" cont="的" pos="u" ne="O" parent="3" relate="RAD"/>  
+        <word id="5" cont="世界" pos="n" ne="O" parent="2" relate="DBL"/>  
+        <word id="6" cont="更加" pos="d" ne="O" parent="7" relate="ADV"/>  
+        <word id="7" cont="丰富多彩" pos="i" ne="O" parent="2" relate="VOB"/>  
+        <word id="8" cont="，" pos="wp" ne="O" parent="7" relate="WP"/>  
+        <word id="9" cont="更加" pos="d" ne="O" parent="11" relate="ADV"/>  
+        <word id="10" cont="快速" pos="d" ne="O" parent="11" relate="ADV"/>  
+        <word id="11" cont="发展" pos="v" ne="O" parent="7" relate="COO"/>  
+        <word id="12" cont="，" pos="wp" ne="O" parent="11" relate="WP"/>  
+        <word id="13" cont="更加" pos="d" ne="O" parent="15" relate="ADV"/>  
+        <word id="14" cont="生活" pos="v" ne="O" parent="15" relate="SBV"/>  
+        <word id="15" cont="美好" pos="a" ne="O" parent="7" relate="COO"/>  
+        <word id="16" cont="。" pos="wp" ne="O" parent="0" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="8" type=" "> 
+      <sent id="0" type=" " cont="是水资源灌浇着麦田，灌浇着生机勃勃的植物，让它们生长更加旺盛，让麦田长大成熟供人民温饱让花草树林更加枝繁叶茂供人民撑凉与欣赏。"> 
+        <word id="0" cont="是" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="1" cont="水资源" pos="n" ne="O" parent="2" relate="SBV"/>  
+        <word id="2" cont="灌浇" pos="v" ne="O" parent="0" relate="VOB"/>  
+        <word id="3" cont="着" pos="u" ne="O" parent="2" relate="RAD"/>  
+        <word id="4" cont="麦田" pos="n" ne="O" parent="2" relate="VOB"/>  
+        <word id="5" cont="，" pos="wp" ne="O" parent="0" relate="WP"/>  
+        <word id="6" cont="灌浇" pos="v" ne="O" parent="0" relate="COO"/>  
+        <word id="7" cont="着" pos="u" ne="O" parent="6" relate="RAD"/>  
+        <word id="8" cont="生机勃勃" pos="i" ne="O" parent="10" relate="ATT"/>  
+        <word id="9" cont="的" pos="u" ne="O" parent="8" relate="RAD"/>  
+        <word id="10" cont="植物" pos="n" ne="O" parent="6" relate="VOB"/>  
+        <word id="11" cont="，" pos="wp" ne="O" parent="6" relate="WP"/>  
+        <word id="12" cont="让" pos="v" ne="O" parent="6" relate="COO"/>  
+        <word id="13" cont="它们" pos="r" ne="O" parent="12" relate="DBL"/>  
+        <word id="14" cont="生长" pos="v" ne="O" parent="16" relate="SBV"/>  
+        <word id="15" cont="更加" pos="d" ne="O" parent="16" relate="ADV"/>  
+        <word id="16" cont="旺盛" pos="a" ne="O" parent="12" relate="VOB"/>  
+        <word id="17" cont="，" pos="wp" ne="O" parent="12" relate="WP"/>  
+        <word id="18" cont="让" pos="v" ne="O" parent="12" relate="COO"/>  
+        <word id="19" cont="麦田" pos="n" ne="O" parent="18" relate="DBL"/>  
+        <word id="20" cont="长大" pos="v" ne="O" parent="18" relate="VOB"/>  
+        <word id="21" cont="成熟" pos="a" ne="O" parent="20" relate="VOB"/>  
+        <word id="22" cont="供" pos="v" ne="O" parent="21" relate="COO"/>  
+        <word id="23" cont="人民" pos="n" ne="O" parent="24" relate="ATT"/>  
+        <word id="24" cont="温饱" pos="n" ne="O" parent="22" relate="VOB"/>  
+        <word id="25" cont="让" pos="v" ne="O" parent="21" relate="COO"/>  
+        <word id="26" cont="花草" pos="n" ne="O" parent="27" relate="ATT"/>  
+        <word id="27" cont="树林" pos="n" ne="O" parent="25" relate="DBL"/>  
+        <word id="28" cont="更加" pos="d" ne="O" parent="29" relate="ADV"/>  
+        <word id="29" cont="枝繁叶茂" pos="i" ne="O" parent="25" relate="VOB"/>  
+        <word id="30" cont="供" pos="v" ne="O" parent="29" relate="COO"/>  
+        <word id="31" cont="人民" pos="n" ne="O" parent="30" relate="DBL"/>  
+        <word id="32" cont="撑凉" pos="v" ne="O" parent="30" relate="VOB"/>  
+        <word id="33" cont="与" pos="c" ne="O" parent="34" relate="LAD"/>  
+        <word id="34" cont="欣赏" pos="v" ne="O" parent="32" relate="COO"/>  
+        <word id="35" cont="。" pos="wp" ne="O" parent="0" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="9" type=" "> 
+      <sent id="0" type=" " cont="是水成就了一批又一批的才人，出现了一批又一批的高技术企业和高薪人材，是这些让社会发展更加快速；"> 
+        <word id="0" cont="是" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="1" cont="水" pos="n" ne="O" parent="2" relate="SBV"/>  
+        <word id="2" cont="成就" pos="v" ne="O" parent="0" relate="VOB"/>  
+        <word id="3" cont="了" pos="u" ne="O" parent="2" relate="RAD"/>  
+        <word id="4" cont="一" pos="m" ne="O" parent="5" relate="ATT"/>  
+        <word id="5" cont="批" pos="q" ne="O" parent="10" relate="ATT"/>  
+        <word id="6" cont="又" pos="d" ne="O" parent="8" relate="LAD"/>  
+        <word id="7" cont="一" pos="m" ne="O" parent="8" relate="ATT"/>  
+        <word id="8" cont="批" pos="q" ne="O" parent="5" relate="COO"/>  
+        <word id="9" cont="的" pos="u" ne="O" parent="5" relate="RAD"/>  
+        <word id="10" cont="才人" pos="n" ne="O" parent="2" relate="VOB"/>  
+        <word id="11" cont="，" pos="wp" ne="O" parent="0" relate="WP"/>  
+        <word id="12" cont="出现" pos="v" ne="O" parent="0" relate="COO"/>  
+        <word id="13" cont="了" pos="u" ne="O" parent="12" relate="RAD"/>  
+        <word id="14" cont="一" pos="m" ne="O" parent="15" relate="ATT"/>  
+        <word id="15" cont="批" pos="q" ne="O" parent="22" relate="ATT"/>  
+        <word id="16" cont="又" pos="d" ne="O" parent="18" relate="LAD"/>  
+        <word id="17" cont="一" pos="m" ne="O" parent="18" relate="ATT"/>  
+        <word id="18" cont="批" pos="q" ne="O" parent="15" relate="COO"/>  
+        <word id="19" cont="的" pos="u" ne="O" parent="15" relate="RAD"/>  
+        <word id="20" cont="高" pos="a" ne="O" parent="21" relate="ATT"/>  
+        <word id="21" cont="技术" pos="n" ne="O" parent="22" relate="ATT"/>  
+        <word id="22" cont="企业" pos="n" ne="O" parent="12" relate="VOB"/>  
+        <word id="23" cont="和" pos="c" ne="O" parent="25" relate="LAD"/>  
+        <word id="24" cont="高薪" pos="n" ne="O" parent="25" relate="ATT"/>  
+        <word id="25" cont="人材" pos="n" ne="O" parent="22" relate="COO"/>  
+        <word id="26" cont="，" pos="wp" ne="O" parent="12" relate="WP"/>  
+        <word id="27" cont="是" pos="v" ne="O" parent="12" relate="COO"/>  
+        <word id="28" cont="这些" pos="r" ne="O" parent="29" relate="SBV"/>  
+        <word id="29" cont="让" pos="v" ne="O" parent="27" relate="VOB"/>  
+        <word id="30" cont="社会" pos="n" ne="O" parent="29" relate="DBL"/>  
+        <word id="31" cont="发展" pos="v" ne="O" parent="29" relate="VOB"/>  
+        <word id="32" cont="更加" pos="d" ne="O" parent="33" relate="ADV"/>  
+        <word id="33" cont="快速" pos="d" ne="O" parent="31" relate="CMP"/>  
+        <word id="34" cont="；" pos="wp" ne="O" parent="0" relate="WP"/> 
+      </sent>  
+      <sent id="1" type=" " cont="更加源远流长。"> 
+        <word id="0" cont="更加" pos="d" ne="O" parent="1" relate="ADV"/>  
+        <word id="1" cont="源远流长" pos="i" ne="O" parent="-1" relate="HED"/>  
+        <word id="2" cont="。" pos="wp" ne="O" parent="1" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="10" type=" "> 
+      <sent id="0" type=" " cont="是水让我们生活更美好。"> 
+        <word id="0" cont="是" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="1" cont="水" pos="n" ne="O" parent="2" relate="SBV"/>  
+        <word id="2" cont="让" pos="v" ne="O" parent="0" relate="VOB"/>  
+        <word id="3" cont="我们" pos="r" ne="O" parent="2" relate="DBL"/>  
+        <word id="4" cont="生活" pos="v" ne="O" parent="6" relate="SBV"/>  
+        <word id="5" cont="更" pos="d" ne="O" parent="6" relate="ADV"/>  
+        <word id="6" cont="美好" pos="a" ne="O" parent="2" relate="VOB"/>  
+        <word id="7" cont="。" pos="wp" ne="O" parent="0" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="11" type=" "> 
+      <sent id="0" type=" " cont="而有的人往往忽略了水给我们带来的一系列好处，而是在一味的浪费水资源，破坏水资源。"> 
+        <word id="0" cont="而" pos="c" ne="O" parent="4" relate="ADV"/>  
+        <word id="1" cont="有的" pos="r" ne="O" parent="2" relate="ATT"/>  
+        <word id="2" cont="人" pos="n" ne="O" parent="4" relate="SBV"/>  
+        <word id="3" cont="往往" pos="d" ne="O" parent="4" relate="ADV"/>  
+        <word id="4" cont="忽略" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="5" cont="了" pos="u" ne="O" parent="4" relate="RAD"/>  
+        <word id="6" cont="水" pos="n" ne="O" parent="4" relate="VOB"/>  
+        <word id="7" cont="给" pos="p" ne="O" parent="9" relate="ADV"/>  
+        <word id="8" cont="我们" pos="r" ne="O" parent="7" relate="POB"/>  
+        <word id="9" cont="带来" pos="v" ne="O" parent="13" relate="ATT"/>  
+        <word id="10" cont="的" pos="u" ne="O" parent="9" relate="RAD"/>  
+        <word id="11" cont="一" pos="m" ne="O" parent="12" relate="ATT"/>  
+        <word id="12" cont="系列" pos="q" ne="O" parent="13" relate="ATT"/>  
+        <word id="13" cont="好处" pos="n" ne="O" parent="4" relate="VOB"/>  
+        <word id="14" cont="，" pos="wp" ne="O" parent="4" relate="WP"/>  
+        <word id="15" cont="而是" pos="c" ne="O" parent="4" relate="COO"/>  
+        <word id="16" cont="在" pos="p" ne="O" parent="19" relate="ADV"/>  
+        <word id="17" cont="一味" pos="d" ne="O" parent="19" relate="ADV"/>  
+        <word id="18" cont="的" pos="u" ne="O" parent="17" relate="RAD"/>  
+        <word id="19" cont="浪费" pos="v" ne="O" parent="15" relate="VOB"/>  
+        <word id="20" cont="水资源" pos="n" ne="O" parent="19" relate="VOB"/>  
+        <word id="21" cont="，" pos="wp" ne="O" parent="19" relate="WP"/>  
+        <word id="22" cont="破坏" pos="v" ne="O" parent="19" relate="COO"/>  
+        <word id="23" cont="水资源" pos="n" ne="O" parent="22" relate="VOB"/>  
+        <word id="24" cont="。" pos="wp" ne="O" parent="4" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="12" type=" "> 
+      <sent id="0" type="outParaPaibiB" cont="农村里，农民使用的农药瓶乱扔河里，造成水体污染。"> 
+        <word id="0" cont="农村" pos="n" ne="O" parent="1" relate="ATT"/>  
+        <word id="1" cont="里" pos="nd" ne="O" parent="8" relate="ADV"/>  
+        <word id="2" cont="，" pos="wp" ne="O" parent="1" relate="WP"/>  
+        <word id="3" cont="农民" pos="n" ne="O" parent="4" relate="SBV"/>  
+        <word id="4" cont="使用" pos="v" ne="O" parent="6" relate="ATT"/>  
+        <word id="5" cont="的" pos="u" ne="O" parent="4" relate="RAD"/>  
+        <word id="6" cont="农药瓶" pos="n" ne="O" parent="8" relate="SBV"/>  
+        <word id="7" cont="乱" pos="d" ne="O" parent="8" relate="ADV"/>  
+        <word id="8" cont="扔" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="9" cont="河里" pos="nl" ne="O" parent="8" relate="VOB"/>  
+        <word id="10" cont="，" pos="wp" ne="O" parent="8" relate="WP"/>  
+        <word id="11" cont="造成" pos="v" ne="O" parent="8" relate="COO"/>  
+        <word id="12" cont="水体" pos="n" ne="O" parent="13" relate="SBV"/>  
+        <word id="13" cont="污染" pos="v" ne="O" parent="11" relate="VOB"/>  
+        <word id="14" cont="。" pos="wp" ne="O" parent="8" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="13" type=" "> 
+      <sent id="0" type="outParaPaibiI" cont="城市里，工厂的无条理的乱排污水，造成水体污染。"> 
+        <word id="0" cont="城市" pos="n" ne="O" parent="1" relate="ATT"/>  
+        <word id="1" cont="里" pos="nd" ne="O" parent="9" relate="ADV"/>  
+        <word id="2" cont="，" pos="wp" ne="O" parent="1" relate="WP"/>  
+        <word id="3" cont="工厂" pos="n" ne="O" parent="9" relate="ATT"/>  
+        <word id="4" cont="的" pos="u" ne="O" parent="3" relate="RAD"/>  
+        <word id="5" cont="无" pos="v" ne="O" parent="9" relate="ADV"/>  
+        <word id="6" cont="条理" pos="n" ne="O" parent="5" relate="VOB"/>  
+        <word id="7" cont="的" pos="u" ne="O" parent="5" relate="RAD"/>  
+        <word id="8" cont="乱" pos="d" ne="O" parent="9" relate="ADV"/>  
+        <word id="9" cont="排" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="10" cont="污水" pos="n" ne="O" parent="9" relate="VOB"/>  
+        <word id="11" cont="，" pos="wp" ne="O" parent="9" relate="WP"/>  
+        <word id="12" cont="造成" pos="v" ne="O" parent="9" relate="COO"/>  
+        <word id="13" cont="水体" pos="n" ne="O" parent="14" relate="SBV"/>  
+        <word id="14" cont="污染" pos="v" ne="O" parent="12" relate="VOB"/>  
+        <word id="15" cont="。" pos="wp" ne="O" parent="9" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="14" type=" "> 
+      <sent id="0" type="outParaPaibiE" cont="生活里污水的乱放，乱丢垃圾造成水体的污染。"> 
+        <word id="0" cont="生活" pos="n" ne="O" parent="1" relate="ATT"/>  
+        <word id="1" cont="里" pos="nd" ne="O" parent="2" relate="ATT"/>  
+        <word id="2" cont="污水" pos="n" ne="O" parent="5" relate="ATT"/>  
+        <word id="3" cont="的" pos="u" ne="O" parent="2" relate="RAD"/>  
+        <word id="4" cont="乱" pos="d" ne="O" parent="5" relate="ADV"/>  
+        <word id="5" cont="放" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="6" cont="，" pos="wp" ne="O" parent="5" relate="WP"/>  
+        <word id="7" cont="乱" pos="d" ne="O" parent="8" relate="ADV"/>  
+        <word id="8" cont="丢" pos="v" ne="O" parent="5" relate="COO"/>  
+        <word id="9" cont="垃圾" pos="n" ne="O" parent="8" relate="VOB"/>  
+        <word id="10" cont="造成" pos="v" ne="O" parent="8" relate="COO"/>  
+        <word id="11" cont="水体" pos="n" ne="O" parent="13" relate="ATT"/>  
+        <word id="12" cont="的" pos="u" ne="O" parent="11" relate="RAD"/>  
+        <word id="13" cont="污染" pos="v" ne="O" parent="10" relate="VOB"/>  
+        <word id="14" cont="。" pos="wp" ne="O" parent="5" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="15" type=" "> 
+      <sent id="0" type=" " cont="一个又一个的水体污染使我们最宝贵的东西造到破坏。"> 
+        <word id="0" cont="一个" pos="m" ne="O" parent="4" relate="ATT"/>  
+        <word id="1" cont="又" pos="d" ne="O" parent="2" relate="ADV"/>  
+        <word id="2" cont="一个" pos="m" ne="O" parent="4" relate="ATT"/>  
+        <word id="3" cont="的" pos="u" ne="O" parent="2" relate="RAD"/>  
+        <word id="4" cont="水体" pos="n" ne="O" parent="5" relate="ATT"/>  
+        <word id="5" cont="污染" pos="v" ne="O" parent="6" relate="SBV"/>  
+        <word id="6" cont="使" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="7" cont="我们" pos="r" ne="O" parent="6" relate="DBL"/>  
+        <word id="8" cont="最" pos="d" ne="O" parent="9" relate="ADV"/>  
+        <word id="9" cont="宝贵" pos="a" ne="O" parent="11" relate="ATT"/>  
+        <word id="10" cont="的" pos="u" ne="O" parent="9" relate="RAD"/>  
+        <word id="11" cont="东西" pos="n" ne="O" parent="6" relate="DBL"/>  
+        <word id="12" cont="造" pos="v" ne="O" parent="6" relate="VOB"/>  
+        <word id="13" cont="到" pos="v" ne="O" parent="12" relate="CMP"/>  
+        <word id="14" cont="破坏" pos="v" ne="O" parent="12" relate="VOB"/>  
+        <word id="15" cont="。" pos="wp" ne="O" parent="6" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="16" type=" "> 
+      <sent id="0" type=" " cont="水说大也大，说小也小，我们应该保护水资源，珍惜水资源。"> 
+        <word id="0" cont="水" pos="n" ne="O" parent="1" relate="SBV"/>  
+        <word id="1" cont="说" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="2" cont="大" pos="a" ne="O" parent="4" relate="SBV"/>  
+        <word id="3" cont="也" pos="d" ne="O" parent="4" relate="ADV"/>  
+        <word id="4" cont="大" pos="a" ne="O" parent="1" relate="VOB"/>  
+        <word id="5" cont="，" pos="wp" ne="O" parent="1" relate="WP"/>  
+        <word id="6" cont="说" pos="v" ne="O" parent="1" relate="COO"/>  
+        <word id="7" cont="小" pos="a" ne="O" parent="9" relate="SBV"/>  
+        <word id="8" cont="也" pos="d" ne="O" parent="9" relate="ADV"/>  
+        <word id="9" cont="小" pos="a" ne="O" parent="6" relate="VOB"/>  
+        <word id="10" cont="，" pos="wp" ne="O" parent="6" relate="WP"/>  
+        <word id="11" cont="我们" pos="r" ne="O" parent="13" relate="SBV"/>  
+        <word id="12" cont="应该" pos="v" ne="O" parent="13" relate="ADV"/>  
+        <word id="13" cont="保护" pos="v" ne="O" parent="6" relate="COO"/>  
+        <word id="14" cont="水资源" pos="n" ne="O" parent="13" relate="VOB"/>  
+        <word id="15" cont="，" pos="wp" ne="O" parent="13" relate="WP"/>  
+        <word id="16" cont="珍惜" pos="v" ne="O" parent="13" relate="COO"/>  
+        <word id="17" cont="水资源" pos="n" ne="O" parent="16" relate="VOB"/>  
+        <word id="18" cont="。" pos="wp" ne="O" parent="1" relate="WP"/> 
+      </sent>  
+      <sent id="1" type=" " cont="因为水给我们带来美好的生活。"> 
+        <word id="0" cont="因为" pos="c" ne="O" parent="4" relate="ADV"/>  
+        <word id="1" cont="水" pos="n" ne="O" parent="4" relate="SBV"/>  
+        <word id="2" cont="给" pos="p" ne="O" parent="4" relate="ADV"/>  
+        <word id="3" cont="我们" pos="r" ne="O" parent="2" relate="POB"/>  
+        <word id="4" cont="带来" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="5" cont="美好" pos="a" ne="O" parent="7" relate="ATT"/>  
+        <word id="6" cont="的" pos="u" ne="O" parent="5" relate="RAD"/>  
+        <word id="7" cont="生活" pos="v" ne="O" parent="4" relate="VOB"/>  
+        <word id="8" cont="。" pos="wp" ne="O" parent="4" relate="WP"/> 
+      </sent>  
+      <sent id="2" type=" " cont="我们要怀着一颗感恩的心去对待我们的母亲—水。"> 
+        <word id="0" cont="我们" pos="r" ne="O" parent="2" relate="SBV"/>  
+        <word id="1" cont="要" pos="v" ne="O" parent="2" relate="ADV"/>  
+        <word id="2" cont="怀着" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="3" cont="一" pos="m" ne="O" parent="4" relate="ATT"/>  
+        <word id="4" cont="颗" pos="q" ne="O" parent="7" relate="ATT"/>  
+        <word id="5" cont="感恩" pos="v" ne="O" parent="7" relate="ATT"/>  
+        <word id="6" cont="的" pos="u" ne="O" parent="5" relate="RAD"/>  
+        <word id="7" cont="心" pos="n" ne="O" parent="2" relate="VOB"/>  
+        <word id="8" cont="去" pos="v" ne="O" parent="9" relate="ADV"/>  
+        <word id="9" cont="对待" pos="v" ne="O" parent="2" relate="COO"/>  
+        <word id="10" cont="我们" pos="r" ne="O" parent="12" relate="ATT"/>  
+        <word id="11" cont="的" pos="u" ne="O" parent="10" relate="RAD"/>  
+        <word id="12" cont="母亲" pos="n" ne="O" parent="9" relate="VOB"/>  
+        <word id="13" cont="—" pos="wp" ne="O" parent="14" relate="WP"/>  
+        <word id="14" cont="水" pos="n" ne="O" parent="12" relate="COO"/>  
+        <word id="15" cont="。" pos="wp" ne="O" parent="2" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="17" type=" "> 
+      <sent id="0" type=" " cont="保护水资源从你我做起，从身边小事做起，只有注重量的积累才会有质的飞跃。"> 
+        <word id="0" cont="保护" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="1" cont="水资源" pos="n" ne="O" parent="0" relate="VOB"/>  
+        <word id="2" cont="从" pos="p" ne="O" parent="5" relate="ADV"/>  
+        <word id="3" cont="你" pos="r" ne="O" parent="4" relate="ATT"/>  
+        <word id="4" cont="我" pos="r" ne="O" parent="2" relate="POB"/>  
+        <word id="5" cont="做" pos="v" ne="O" parent="0" relate="COO"/>  
+        <word id="6" cont="起" pos="v" ne="O" parent="5" relate="CMP"/>  
+        <word id="7" cont="，" pos="wp" ne="O" parent="5" relate="WP"/>  
+        <word id="8" cont="从" pos="p" ne="O" parent="11" relate="ADV"/>  
+        <word id="9" cont="身边" pos="nl" ne="O" parent="10" relate="ATT"/>  
+        <word id="10" cont="小事" pos="n" ne="O" parent="8" relate="POB"/>  
+        <word id="11" cont="做" pos="v" ne="O" parent="5" relate="COO"/>  
+        <word id="12" cont="起" pos="v" ne="O" parent="11" relate="CMP"/>  
+        <word id="13" cont="，" pos="wp" ne="O" parent="11" relate="WP"/>  
+        <word id="14" cont="只有" pos="c" ne="O" parent="21" relate="ADV"/>  
+        <word id="15" cont="注重" pos="v" ne="O" parent="21" relate="SBV"/>  
+        <word id="16" cont="量" pos="n" ne="O" parent="15" relate="VOB"/>  
+        <word id="17" cont="的" pos="u" ne="O" parent="16" relate="RAD"/>  
+        <word id="18" cont="积累" pos="v" ne="O" parent="15" relate="VOB"/>  
+        <word id="19" cont="才" pos="d" ne="O" parent="20" relate="ADV"/>  
+        <word id="20" cont="会" pos="v" ne="O" parent="21" relate="ADV"/>  
+        <word id="21" cont="有" pos="v" ne="O" parent="11" relate="COO"/>  
+        <word id="22" cont="质" pos="n" ne="O" parent="24" relate="ATT"/>  
+        <word id="23" cont="的" pos="u" ne="O" parent="22" relate="RAD"/>  
+        <word id="24" cont="飞跃" pos="v" ne="O" parent="21" relate="VOB"/>  
+        <word id="25" cont="。" pos="wp" ne="O" parent="0" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="18" type=" "> 
+      <sent id="0" type=" " cont="水是我们生活中最常见而又不可或缺的东西，它恰恰被我们忽视而在一度的在破坏它。"> 
+        <word id="0" cont="水" pos="n" ne="O" parent="1" relate="SBV"/>  
+        <word id="1" cont="是" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="2" cont="我们" pos="r" ne="O" parent="3" relate="ATT"/>  
+        <word id="3" cont="生活" pos="v" ne="O" parent="4" relate="ATT"/>  
+        <word id="4" cont="中" pos="nd" ne="O" parent="11" relate="ATT"/>  
+        <word id="5" cont="最" pos="d" ne="O" parent="6" relate="ADV"/>  
+        <word id="6" cont="常见" pos="a" ne="O" parent="11" relate="ATT"/>  
+        <word id="7" cont="而" pos="c" ne="O" parent="9" relate="ADV"/>  
+        <word id="8" cont="又" pos="d" ne="O" parent="9" relate="ADV"/>  
+        <word id="9" cont="不可或缺" pos="i" ne="O" parent="6" relate="COO"/>  
+        <word id="10" cont="的" pos="u" ne="O" parent="9" relate="RAD"/>  
+        <word id="11" cont="东西" pos="n" ne="O" parent="1" relate="VOB"/>  
+        <word id="12" cont="，" pos="wp" ne="O" parent="1" relate="WP"/>  
+        <word id="13" cont="它" pos="r" ne="O" parent="17" relate="FOB"/>  
+        <word id="14" cont="恰恰" pos="d" ne="O" parent="17" relate="ADV"/>  
+        <word id="15" cont="被" pos="p" ne="O" parent="17" relate="ADV"/>  
+        <word id="16" cont="我们" pos="r" ne="O" parent="15" relate="POB"/>  
+        <word id="17" cont="忽视" pos="v" ne="O" parent="1" relate="COO"/>  
+        <word id="18" cont="而" pos="c" ne="O" parent="23" relate="ADV"/>  
+        <word id="19" cont="在" pos="p" ne="O" parent="23" relate="ADV"/>  
+        <word id="20" cont="一度" pos="n" ne="O" parent="19" relate="POB"/>  
+        <word id="21" cont="的" pos="u" ne="O" parent="20" relate="RAD"/>  
+        <word id="22" cont="在" pos="p" ne="O" parent="23" relate="ADV"/>  
+        <word id="23" cont="破坏" pos="v" ne="O" parent="17" relate="COO"/>  
+        <word id="24" cont="它" pos="r" ne="O" parent="23" relate="VOB"/>  
+        <word id="25" cont="。" pos="wp" ne="O" parent="1" relate="WP"/> 
+      </sent> 
+    </para>  
+    <para id="19" type=" "> 
+      <sent id="0" type="outParaPaibiB" cont="水给我们带来鸟雨花香"> 
+        <word id="0" cont="水" pos="n" ne="O" parent="3" relate="SBV"/>  
+        <word id="1" cont="给" pos="p" ne="O" parent="3" relate="ADV"/>  
+        <word id="2" cont="我们" pos="r" ne="O" parent="1" relate="POB"/>  
+        <word id="3" cont="带来" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="4" cont="鸟雨" pos="n" ne="O" parent="5" relate="ATT"/>  
+        <word id="5" cont="花香" pos="n" ne="O" parent="3" relate="VOB"/> 
+      </sent> 
+    </para>  
+    <para id="20" type=" "> 
+      <sent id="0" type="outParaPaibiE" cont="水给我们带来温饱。"> 
+        <word id="0" cont="水" pos="n" ne="O" parent="3" relate="SBV"/>  
+        <word id="1" cont="给" pos="p" ne="O" parent="3" relate="ADV"/>  
+        <word id="2" cont="我们" pos="r" ne="O" parent="1" relate="POB"/>  
+        <word id="3" cont="带来" pos="v" ne="O" parent="-1" relate="HED"/>  
+        <word id="4" cont="温饱" pos="n" ne="O" parent="3" relate="VOB"/>  
+        <word id="5" cont="。" pos="wp" ne="O" parent="3" relate="WP"/> 
+      </sent> 
+    </para> 
+  </doc> 
+</xml4nlp>
