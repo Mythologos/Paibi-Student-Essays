@@ -601,34 +601,37 @@
         <word id="13" cont="从未" pos="d" ne="O" parent="14" relate="ADV"/>  
         <word id="14" cont="忘记" pos="v" ne="O" parent="-1" relate="HED"/>  
         <word id="15" cont="。" pos="wp" ne="O" parent="14" relate="WP"/> 
-      </sent>  
-      <sent id="2" type="inParaPaibiB" cont="感恩，便是在公车司机为你而等待的时候，你对他的一个微笑和一句谢谢；"> 
-        <word id="0" cont="感恩" pos="v" ne="O" parent="-1" relate="HED"/>  
-        <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP"/>  
-        <word id="2" cont="便是" pos="v" ne="O" parent="0" relate="COO"/>  
-        <word id="3" cont="在" pos="p" ne="O" parent="9" relate="ADV"/>  
-        <word id="4" cont="公车" pos="n" ne="O" parent="5" relate="ATT"/>  
-        <word id="5" cont="司机" pos="n" ne="O" parent="3" relate="POB"/>  
-        <word id="6" cont="为" pos="p" ne="O" parent="9" relate="ADV"/>  
-        <word id="7" cont="你" pos="r" ne="O" parent="6" relate="POB"/>  
-        <word id="8" cont="而" pos="c" ne="O" parent="9" relate="ADV"/>  
-        <word id="9" cont="等待" pos="v" ne="O" parent="11" relate="ATT"/>  
-        <word id="10" cont="的" pos="u" ne="O" parent="9" relate="RAD"/>  
-        <word id="11" cont="时候" pos="n" ne="O" parent="2" relate="VOB"/>  
-        <word id="12" cont="，" pos="wp" ne="O" parent="2" relate="WP"/>  
-        <word id="13" cont="你" pos="r" ne="O" parent="14" relate="SBV"/>  
-        <word id="14" cont="对" pos="p" ne="O" parent="2" relate="COO"/>  
-        <word id="15" cont="他" pos="r" ne="O" parent="18" relate="ATT"/>  
-        <word id="16" cont="的" pos="u" ne="O" parent="15" relate="RAD"/>  
-        <word id="17" cont="一个" pos="m" ne="O" parent="18" relate="ATT"/>  
-        <word id="18" cont="微笑" pos="v" ne="O" parent="14" relate="POB"/>  
-        <word id="19" cont="和" pos="c" ne="O" parent="22" relate="LAD"/>  
-        <word id="20" cont="一" pos="m" ne="O" parent="21" relate="ATT"/>  
-        <word id="21" cont="句" pos="q" ne="O" parent="22" relate="ATT"/>  
-        <word id="22" cont="谢谢" pos="v" ne="O" parent="18" relate="COO"/>  
-        <word id="23" cont="；" pos="wp" ne="O" parent="0" relate="WP"/> 
-      </sent>  
-      <sent id="3" type="InSentenceBIE" cont="感恩，便是在每个节目来临的时候给曾经教导过你的老师发出的一条祝福短信，感恩，便是对父母一句真诚的爱，以及在他们疲累的时候承担的一次家务。"> 
+      </sent>
+      <sent id="2" type="inParaPaibiB" cont="感恩，便是在公车司机为你而等待的时候，你对他的一个微笑和一句谢谢；">
+        <word id="0" cont="感恩" pos="v" ne="O" parent="-1" relate="HED"/>
+        <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP"/>
+        <word id="2" cont="便是" pos="v" ne="O" parent="0" relate="COO"/>
+        <word id="3" cont="在" pos="p" ne="O" parent="9" relate="ADV"/>
+        <word id="4" cont="公车" pos="n" ne="O" parent="5" relate="ATT"/>
+        <word id="5" cont="司机" pos="n" ne="O" parent="3" relate="POB"/>
+        <word id="6" cont="为" pos="p" ne="O" parent="9" relate="ADV"/>
+        <word id="7" cont="你" pos="r" ne="O" parent="6" relate="POB"/>
+        <word id="8" cont="而" pos="c" ne="O" parent="9" relate="ADV"/>
+        <word id="9" cont="等待" pos="v" ne="O" parent="11" relate="ATT"/>
+        <word id="10" cont="的" pos="u" ne="O" parent="9" relate="RAD"/>
+        <word id="11" cont="时候" pos="n" ne="O" parent="2" relate="VOB"/>
+        <word id="12" cont="，" pos="wp" ne="O" parent="2" relate="WP"/>
+        <word id="13" cont="你" pos="r" ne="O" parent="14" relate="SBV"/>
+        <word id="14" cont="对" pos="p" ne="O" parent="2" relate="COO"/>
+        <word id="15" cont="他" pos="r" ne="O" parent="18" relate="ATT"/>
+        <word id="16" cont="的" pos="u" ne="O" parent="15" relate="RAD"/>
+        <word id="17" cont="一个" pos="m" ne="O" parent="18" relate="ATT"/>
+        <word id="18" cont="微笑" pos="v" ne="O" parent="14" relate="POB"/>
+        <word id="19" cont="和" pos="c" ne="O" parent="22" relate="LAD"/>
+        <word id="20" cont="一" pos="m" ne="O" parent="21" relate="ATT"/>
+        <word id="21" cont="句" pos="q" ne="O" parent="22" relate="ATT"/>
+        <word id="22" cont="谢谢" pos="v" ne="O" parent="18" relate="COO"/>
+        <word id="23" cont="；" pos="wp" ne="O" parent="0" relate="WP"/>
+      </sent>
+      <!-- The issue here is that there is a multi-sentence parallelism (with the previous sentence),
+      but it's not appropriately divided up. It is not completely clear what to do about this.
+      For now, I will change the inSentenceBIE to inParaPaibiE to express the connection, but both tags are relevant. -->
+      <sent id="3" type="inParaPaibiE" cont="感恩，便是在每个节目来临的时候给曾经教导过你的老师发出的一条祝福短信，感恩，便是对父母一句真诚的爱，以及在他们疲累的时候承担的一次家务。">
         <word id="0" cont="感恩" pos="v" ne="O" parent="-1" relate="HED"/>  
         <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP"/>  
         <word id="2" cont="便是" pos="v" ne="O" parent="0" relate="COO"/>  

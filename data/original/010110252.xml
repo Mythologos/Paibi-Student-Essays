@@ -195,8 +195,10 @@
         <word id="65" cont="。" pos="wp" ne="O" parent="10" relate="WP"/> 
       </sent> 
     </para>  
-    <para id="5" type=" "> 
-      <sent id="0" type="inParaPaibiB" cont="感恩，游子的心弦"> 
+    <para id="5" type=" ">
+      <!-- This should be outParaPaibiI rather than inParaPaibiB to match
+      the earlier outParaPaibiB and later outParaPaibiE. -->
+      <sent id="0" type="outParaPaibiI" cont="感恩，游子的心弦">
         <word id="0" cont="感恩" pos="v" ne="O" parent="-1" relate="HED"/>  
         <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP"/>  
         <word id="2" cont="游子" pos="n" ne="O" parent="4" relate="ATT"/>  

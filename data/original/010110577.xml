@@ -575,8 +575,11 @@
         <word id="13" cont="的" pos="u" ne="O" parent="12" relate="RAD"/>  
         <word id="14" cont="路" pos="n" ne="O" parent="10" relate="VOB"/>  
         <word id="15" cont="；" pos="wp" ne="O" parent="0" relate="WP"/> 
-      </sent>  
-      <sent id="1" type="InSentenceBIE" cont="做一个有担当的人，责难的可怕也有勇气去面对，做一个有担当的人，路途再遥远也能找到奔跑的方向。"> 
+      </sent>
+      <!-- This is a segmentation issue: while there is a parallelism in the sentence,
+      there is also a connection with the prior inParaPaibiB that is not made clear.
+      As a temporary fix, I will change InSentenceBIE to inParaPaibiE. -->
+      <sent id="1" type="inParaPaibiE" cont="做一个有担当的人，责难的可怕也有勇气去面对，做一个有担当的人，路途再遥远也能找到奔跑的方向。">
         <word id="0" cont="做" pos="v" ne="O" parent="-1" relate="HED"/>  
         <word id="1" cont="一个" pos="m" ne="O" parent="5" relate="ATT"/>  
         <word id="2" cont="有" pos="v" ne="O" parent="5" relate="ATT"/>  
