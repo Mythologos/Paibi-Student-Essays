@@ -117,14 +117,14 @@ The major differences between the original dataset and this subset lie in the wa
 In the PSE-I subset's data, each `<word>` that is part of a parallelism has a `parallelism_id` and `branch_id`.
 Both are numbered with their corresponding stratum (or level of nesting): 1.
 Because the PSE-I dataset is flat--that is, no nested parallelisms exist--such numeration is not strictly necessary. 
-However, it is pre-emptive in the case that the dataset is expanded upon later. As a result, numeration to indicate the potential for nesting is currently unnecessary; 
-Moreover, we retained it to match the [ASP dataset](https://github.com/Mythologos/Augustinian-Sermon-Parallelisms)'s style of tokenized presentation.
+We retained it to match the [ASP dataset](https://github.com/Mythologos/Augustinian-Sermon-Parallelisms)'s style of tokenized presentation and to preemptively cover potential expansions to the dataset.
+
 Both `parallelism_id_1` and `branch_id_1` increment sequentially in document order. 
 Following the original PSE dataset, `parallelism_id_1` starts at 0; however, following the ASP dataset, `branch_id_1` starts at 1.
 
 In order to keep parallelisms local within the data, the parallelisms retained in this subset only consist of those with `in` tags in the original data. 
-In other words, all `out` parallelisms are excluded by roughly 250. 
-At the same time, to achieve higher granularity with regard to parallelisms in the data, we took two steps.
+In other words, all `out` parallelisms (roughly 250 of them) are excluded. 
+Simultaneously, to achieve higher granularity with regard to parallelisms in the data, we took two steps.
 1. First, we annotated all `inSentenceBIE` tags to label the locations of internal branches.
 Five annotators collectively performed this process on approximately 250 sentences, 
 and their instructions for doing so via the `brat` annotation tool (Stenetorp *et al.* 2012) are given in the PDF located in the `data/augmented/procedure` subdirectory.
