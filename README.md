@@ -115,7 +115,7 @@ The major differences between the original dataset and this subset lie in the wa
 #### Parallelism Annotation Scheme
 
 In the PSE-I subset's data, each `<word>` that is part of a parallelism has a `parallelism_id` and `branch_id`.
-Both are numbered with their corresponding stratum (or level of nesting): 1.
+Both are numbered with their corresponding *stratum* (or level of nesting): 1.
 Because the PSE-I dataset is flat--that is, no nested parallelisms exist--such numeration is not strictly necessary. 
 We retained it to match the [ASP dataset](https://github.com/Mythologos/Augustinian-Sermon-Parallelisms)'s style of tokenized presentation and to preemptively cover potential expansions to the dataset.
 
@@ -137,7 +137,11 @@ All the same nomenclature is used across both versions.
 
 #### Provided Files
 
-Our repository provides the data described here in the `full` subdirectory under `data/augmented`.
+Our repository provides the data described here in the `full` subdirectory under `data/augmented`. 
+It also provides an abbreviated version in the `abbreviated` subdirectory. 
+These abbreviated versions mirror those created for the original PSE data, 
+save that word-level tokenization and parallelism tags are preserved. 
+For the sake of readability, we also retained sentence-level `cont` tags.
 
 #### Statistics
 
