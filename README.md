@@ -97,7 +97,7 @@ All variations are contained in the `data/original` directory.
 In the `preserved` subdirectory, we provide the original data.
 Meanwhile, in the `corrected` subdirectory, we manually reviewed and altered some tags (when possible) that seemed not to be as intended, as they broke apparent linear connections between tagged sentences. 
 We also noted other files which maintained such nonlinearity issues or are otherwise dubious. 
-These include `1259.xml` and `010110237.xml`.
+These include `12.xml` and `367.xml`.
 
 Each of these subdirectories contain two further subdirectories. 
 On the one hand, the `full` subdirectory in each contains all the tags and metadata described above. 
