@@ -22,9 +22,8 @@ Both the original PSE dataset and the augmented PSE-I subset are available in th
 
 ### Use
 
-This section is a work in progress.
-
-**TODO**: add appropriate licensing.
+This dataset is licensed under a Creative Commons Attribution-Sharealike 4.0 International (CC-BY-SA) license. 
+For more information, please see https://creativecommons.org/licenses/by-sa/4.0/.
 
 ## Contents
 
