@@ -10,12 +10,13 @@
 
 ## Summary
 
-The Paibi Student Essay (henceforth abbreviated PSE) dataset originates from Song *et al.*'s work, ["Learning to Identify Sentence Parallelism in Student Essays"](https://aclanthology.org/C16-1076/).
+The **Paibi Student Essay** (henceforth abbreviated PSE) **dataset** originates from Song *et al.*'s work, ["Learning to Identify Sentence Parallelism in Student Essays"](https://aclanthology.org/C16-1076/).
+Specifically, it pertains to the dataset introduced in Section 2 of that work (and ***not*** Section 5, which concerns a distinct dataset).
 At the current time, this dataset consists of 409 essays annotated toward the study rhetorical parallelism, 
 especially in the context of automated essay evaluation. Work on this dataset was later integrated into the iFlyEA software
 as described in the paper ["IFlyEA: A Chinese Essay with Automated Rating, Review Generation, and Recommendation"](https://aclanthology.org/2021.acl-demo.29/) (Gong *et al.* 2021).
 
-A revised subset of it, known as the PSE-I (or "inside") subset, also features in the work "Introducing Rhetorical Parallelism Detection: A New Task with Datasets, Metrics, and Baselines" (Bothwell *et al.* 2023). 
+A revised subset of it, known as the **PSE-I** (or "inside") **subset**, also features in the work "Introducing Rhetorical Parallelism Detection: A New Task with Datasets, Metrics, and Baselines" (Bothwell *et al.* 2023). 
 It incorporates all 409 essays, both removing and adding some annotations to suit the task definition at hand.
 
 Both the original PSE dataset and the augmented PSE-I subset are available in this repository and are described in more detail below.
@@ -48,10 +49,12 @@ It has a total of six XML tag types, and we cover each of them below:
 * `<xml4nlp>`: Each document is grouped inside this tag; it has no adjoining metadata. 
 * `<doc>`: The organization of the text is contained within this tag. Its attributes may possess some high-level information about the essay. 
 For instance, it may list the numerical score(s) that the essay received. 
-Each essay could have one overall score (`score`); it could also have multiple scores awarded by up to three different scorers (noted via the values `score1`, `score2`, and `score3`) and an aggregation of those scores. 
+Each essay could have one overall score (`score`); 
+it could also have multiple scores awarded by up to three different scorers (noted via the values `score1`, `score2`, and `score3`) and an aggregation of those scores.
+These scorers were professional high school teachers, and their scores range from 0 to 60.
 * `<para>`: These tags designate paragraphs in a document. 
 They have `id` values which enumerate them; such values increment sequentially and start from 0. 
-* `<scrawl>`: These tags are self-contained and indicate edits to the essays. **[[TODO: Clarification?]]**
+* `<scrawl>`: These tags are self-contained and indicate edits to the essays.
 * `<sent>`: These tags indicate sentences in a paragraph.
 They have an `id` attribute; it functions as the `<para>` tag's does. 
 They also have a `cont` attribute which provides the contents of a given indicated sentence.
@@ -190,7 +193,13 @@ To cite this dataset, please refer to the following paper for the original data:
 
 ... and to the following paper for the augmented data (alongside the prior citation):
 ```
-...
+@inproceedings{bothwellIntroducingRPD2023,
+    author = {Bothwell, Stephen and DeBenedetto, Justin and Crnkovich, Theresa and M{\"u}ller, Hildegund and Chiang, David},
+    title = "Introducing Rhetorical Parallelism Detection: {A} New Task with Datasets, Metrics, and Baselines",
+    booktitle = "Proc. EMNLP",
+    year = "2023",
+    note = "To appear"
+}
 ```
 
 
