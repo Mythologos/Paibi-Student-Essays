@@ -1,0 +1,11 @@
+T1	Branch 469 485	不比“为伊消得人憔悴”的柳永多情
+T2	Branch 486 504	也没有“东风无力百花残”的李商隐细腻
+R1	Parallel Arg1:T1 Arg2:T2	
+T3	Branch 513 525	有的是忧国忧民的赤心肝胆
+T4	Branch 526 539	有的是承担苦难的勇气与良知
+R2	Parallel Arg1:T3 Arg2:T4	
+T5	Branch 1054 1060	身披一袭勇气
+T6	Branch 1061 1067	心系一份忧愁
+T7	Branch 1068 1074	脚踏一份执着
+R3	Parallel Arg1:T5 Arg2:T6	
+R4	Parallel Arg1:T6 Arg2:T7	

@@ -1,0 +1,11 @@
+T1	Branch 879 890	宅在中庸，便能登峰造极
+T2	Branch 891 902	宅在极致，便可玉石俱焚
+R1	Parallel Arg1:T1 Arg2:T2	
+T3	Branch 990 993	是轻佻
+T4	Branch 995 999	是可怕的
+R2	Parallel Arg1:T3 Arg2:T4	
+T5	Branch 1000 1004	宅出平静
+T6	Branch 1005 1009	宅出安逸
+T7	Branch 1010 1014	宅出技术
+R3	Parallel Arg1:T5 Arg2:T6	
+R4	Parallel Arg1:T6 Arg2:T7	

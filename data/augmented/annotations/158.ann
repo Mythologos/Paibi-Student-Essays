@@ -1,0 +1,7 @@
+T1	Branch 952 957	是环卫工人
+T2	Branch 958 961	是医生
+T3	Branch 962 965	是教师
+T4	Branch 966 974	是社会中的一份子
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+R3	Parallel Arg1:T3 Arg2:T4	

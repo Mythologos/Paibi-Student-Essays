@@ -1,0 +1,7 @@
+T1	Branch 653 680	李白“仰天大笑出门去，我辈岂是蓬蒿人”的吟唱感动着我们
+T2	Branch 681 705	杜甫：“会当凌绝顶，一览众山小”的豪情鼓舞着我们
+T3	Branch 706 725	苏轼“大江东去浪淘尽”的豪迈陶冶着我们
+T4	Branch 726 746	陶渊明“不为五斗米折腰”的节操熏染着我们
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+R3	Parallel Arg1:T3 Arg2:T4	

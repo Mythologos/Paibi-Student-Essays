@@ -1,0 +1,13 @@
+T1	Branch 605 612	是寒冬中的火焰
+T2	Branch 613 620	是沙漠中的绿洲
+T3	Branch 621 625	是骨中钙
+T4	Branch 626 634	是照耀在大地的光
+T5	Branch 700 718	善良存活于那一面面新树立起的墙壁之中
+T6	Branch 719 732	善良存活于当地人的眼神之中
+R1	Parallel Arg1:T5 Arg2:T6	
+R2	Parallel Arg1:T1 Arg2:T2	
+R3	Parallel Arg1:T2 Arg2:T3	
+R4	Parallel Arg1:T3 Arg2:T4	
+T7	Branch 783 794	因为空气，我们才能生存
+T8	Branch 795 809	因为善良，我们才能生得有意义
+R5	Parallel Arg1:T7 Arg2:T8	

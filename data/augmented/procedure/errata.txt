@@ -1,0 +1,10 @@
+(1) From 267.ann, the following items were removed because they were not connected with any parallelism tagged in the original data.
+T6	Branch 409 416	拥有一份好心情
+T7	Branch 442 449	拥有一份好心情
+T8	Branch 468 475	拥有一份好心情
+T9	Branch 504 511	拥有一份好心情
+R5	Parallel Arg1:T6 Arg2:T7
+R6	Parallel Arg1:T7 Arg2:T8
+R7	Parallel Arg1:T8 Arg2:T9
+
+(2) For files 46.xml and 67.xml, incomplete inParaPaibiB tags and InSentenceBIE annotations were combined into singular parallelisms manually.

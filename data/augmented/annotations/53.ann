@@ -1,0 +1,9 @@
+T1	Branch 872 879	世界需要正能量
+T2	Branch 864 871	中国需要正能量
+T3	Branch 856 863	社会需要正能量
+R1	Parallel Arg1:T3 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T1	
+T4	Branch 38 59	在我们的身边有一种力量大爱无疆，有一种力量
+T5	Branch 60 81	感人至深，有一种力量催人奋进，这就是正能量
+R3	Parallel Arg1:T4 Arg2:T5	
+T6	Finished 0 13	<Paragraph 1>

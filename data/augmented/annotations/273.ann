@@ -1,0 +1,8 @@
+T1	Branch 922 930	任那天空阴霾昏暗
+T2	Branch 931 939	任那大海浊浪排空
+T3	Branch 940 949	任那山雨欲来风满楼
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+T4	Branch 1026 1032	那是千载骂名
+T5	Branch 1033 1039	那是遗臭万年
+R3	Parallel Arg1:T4 Arg2:T5	

@@ -1,0 +1,9 @@
+T1	Branch 120 125	对爱人的爱
+T2	Branch 126 133	对亲朋好友的爱
+T3	Branch 134 143	对社会弱势群体的爱
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+T4	Branch 208 232	是沙漠的一片绿洲，能让身处饥渴的人抓住救命的稻草
+T5	Branch 236 255	是一场春天的及时雨，给大自然送来了希望
+R3	Parallel Arg1:T4 Arg2:T5	
+T6	Finished 0 13	<Paragraph 1>

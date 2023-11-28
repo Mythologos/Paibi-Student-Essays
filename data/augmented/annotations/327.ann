@@ -1,0 +1,32 @@
+T1	Branch 820 828	有富可敌国的微软
+T2	Branch 829 837	有生活窘迫的工人
+T3	Branch 838 846	有身份高贵的纨绔
+T4	Branch 847 855	有勤奋好学的子贡
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+R3	Parallel Arg1:T3 Arg2:T4	
+T5	Branch 462 473	有选择弃官归隐的陶渊明
+T6	Branch 474 484	有选择弃医从文的鲁迅
+T7	Branch 485 498	有选择提倡改革开放的邓小平
+R4	Parallel Arg1:T5 Arg2:T6	
+R5	Parallel Arg1:T6 Arg2:T7	
+T8	Branch 139 146	春季开花的是桃
+T9	Branch 147 154	夏季开花的是荷
+T10	Branch 155 162	秋季开花的是菊
+T11	Branch 163 170	冬季开花的是梅
+R6	Parallel Arg1:T8 Arg2:T9	
+R7	Parallel Arg1:T9 Arg2:T10	
+R8	Parallel Arg1:T10 Arg2:T11	
+T12	Branch 319 332	野马喜欢在辽阔的草原上狂奔
+T13	Branch 333 345	狮子喜欢在午间惬意的休憩
+T14	Branch 346 358	海鸥喜欢在海风作用下翱翔
+T15	Branch 359 372	海豚喜欢在海底世界尽情舞蹈
+R9	Parallel Arg1:T12 Arg2:T13	
+R10	Parallel Arg1:T13 Arg2:T14	
+R11	Parallel Arg1:T14 Arg2:T15	
+T16	Finished 1 12	Paragraph 1
+T17	Branch 553 572	曾经洪战辉带着妹妹求学的故事让我们感动
+T18	Branch 573 594	曾经演绎《千手观音》的舞蹈演员们让我们感动
+T19	Branch 595 617	曾经给我们带来无数欢笑的侯耀文老师让我们感动
+R12	Parallel Arg1:T17 Arg2:T18	
+R13	Parallel Arg1:T18 Arg2:T19	

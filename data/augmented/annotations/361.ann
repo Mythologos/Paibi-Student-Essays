@@ -1,0 +1,15 @@
+T1	Branch 948 969	青春是追赶太阳的奔放，而不是守候月亮的无聊
+T2	Branch 970 995	青春是一座充满竞争的城市，而不是一座舒适安逸的山庄
+R1	Parallel Arg1:T1 Arg2:T2	
+T3	Branch 1001 1007	年轻无权享受
+T4	Branch 1008 1014	青春无权挥霍
+R2	Parallel Arg1:T3 Arg2:T4	
+T5	Branch 1058 1070	绿色的季节里我是烂漫的花
+T6	Branch 1071 1083	黄色的季节里我是金色的果
+R3	Parallel Arg1:T5 Arg2:T6	
+T7	Branch 182 187	青春的宣言
+T8	Branch 188 192	青春的信
+T9	Branch 193 198	青春的斑斓
+R4	Parallel Arg1:T7 Arg2:T8	
+R5	Parallel Arg1:T8 Arg2:T9	
+T10	Finished 3 8	ragra

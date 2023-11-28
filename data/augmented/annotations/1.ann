@@ -1,0 +1,14 @@
+T1	Branch 40 68	如果和谐是一片汪洋大海，那么助人就是无数条河流，汇入大海
+T2	Branch 69 97	如果和谐是一曲美妙乐章，那么友善就是散乱的音符，构成乐章
+T3	Branch 99 125	如果和谐是巍峨大山，那么团结就是凸起的石块，堆积成山
+#1	AnnotatorNotes T3	Appears to have been missed in the original dataset
+T4	Branch 509 515	今有知恩图报
+T5	Branch 516 522	古有负荆请罪
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+R3	Parallel Arg1:T4 Arg2:T5	
+T6	Branch 138 150	就是助人后一句诚挚的道谢
+T7	Branch 151 158	就是牵手的团结
+T8	Branch 159 168	就是互助点头的友善
+R4	Parallel Arg1:T6 Arg2:T7	
+R5	Parallel Arg1:T7 Arg2:T8	

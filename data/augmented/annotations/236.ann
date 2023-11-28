@@ -1,0 +1,12 @@
+T1	Branch 966 971	用心感受爱
+T2	Branch 972 978	用眼睛发现爱
+T3	Branch 979 984	用嘴表达爱
+T4	Branch 985 991	用双手传递爱
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+R3	Parallel Arg1:T3 Arg2:T4	
+T5	Branch 1036 1040	鱼需要水
+T6	Branch 1041 1046	树需要阳光
+T7	Branch 1047 1057	所有生物需要氧气一样
+R4	Parallel Arg1:T5 Arg2:T6	
+R5	Parallel Arg1:T6 Arg2:T7	

@@ -1,0 +1,14 @@
+T1	Branch 588 595	学会了思索未来
+T2	Branch 596 604	学会了面对生活！
+R1	Parallel Arg1:T1 Arg2:T2	
+T3	Branch 580 588	学会了坚强不屈，
+R2	Parallel Arg1:T3 Arg2:T1	
+T4	Branch 736 750	与台湾同胞们一同去谴责李登辉
+T5	Branch 726 735	与孙悟空同去取西经
+T6	Branch 713 725	与林黛玉一起品味红楼之梦
+R3	Parallel Arg1:T6 Arg2:T5	
+R4	Parallel Arg1:T5 Arg2:T4	
+T7	Branch 871 882	伴着书香，我走进了梦乡
+T8	Branch 883 897	追随书香，我会抵达理想的殿堂
+R5	Parallel Arg1:T7 Arg2:T8	
+T9	Finished 0 13	<Paragraph 1>

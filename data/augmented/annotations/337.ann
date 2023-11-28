@@ -1,0 +1,9 @@
+T1	Branch 39 60	不是每一道江流都能入海，不流动的便成了死湖
+T2	Branch 61 85	不是每一粒种子都能成树，不生长的便成了空壳—题记
+R1	Parallel Arg1:T1 Arg2:T2	
+T3	Branch 771 783	一定缺少不了我们细心的人
+T4	Branch 797 809	更缺少不了我们有目标的人
+T5	Branch 784 796	一定缺少不了我们自信的人
+R2	Parallel Arg1:T3 Arg2:T5	
+R3	Parallel Arg1:T5 Arg2:T4	
+T6	Finished 0 13	<Paragraph 1>

@@ -1,0 +1,8 @@
+T1	Branch 44 54	它是永不停歇的奔跑者
+T2	Branch 55 67	它是黑夜白昼交替的推动者
+T3	Branch 68 78	它是勇敢向前的开拓者
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+T4	Branch 872 888	如果双手被划破，就让荆棘变成杜鹃
+T5	Branch 889 905	如果双脚被磨烂，就让夕阳撒满小路
+R3	Parallel Arg1:T4 Arg2:T5	

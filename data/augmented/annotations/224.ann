@@ -1,0 +1,8 @@
+T1	Branch 127 155	文明也是看见地上有纸团将它拾起扔进垃圾筒的一个弯腰的动作
+T2	Branch 156 176	文明是在楼道里看见师长一句“您好”的话语
+T3	Branch 177 205	文明是在拥挤的公交车上为老弱病残等人让座的一个站立的动作
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+T4	Branch 761 771	一句谢谢对应着不客气
+T5	Branch 772 783	一句对不起对应着没关系
+R3	Parallel Arg1:T4 Arg2:T5	

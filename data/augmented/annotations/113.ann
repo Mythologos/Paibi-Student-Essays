@@ -1,0 +1,14 @@
+T1	Branch 37 40	因为那
+T2	Branch 78 81	因为那
+T3	Branch 115 118	因为那
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+T4	Branch 47 49	给了
+T5	Branch 87 89	给了
+T6	Branch 125 127	给了
+R3	Parallel Arg1:T4 Arg2:T5	
+R4	Parallel Arg1:T5 Arg2:T6	
+T7	Branch 958 973	回报是一种力量，能让你不断前进
+T8	Branch 974 986	回报是一种方向，能指导你
+R5	Parallel Arg1:T7 Arg2:T8	
+T9	Finished 0 13	<Paragraph 1>

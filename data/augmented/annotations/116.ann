@@ -1,0 +1,11 @@
+T1	Branch 140 153	学会感恩，社会才会更加温暖
+T2	Branch 154 168	学会感恩，我们才能传播正能量
+T3	Branch 169 181	学会感恩，我们才会更幸福
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+T4	Branch 959 963	成功之花
+T5	Branch 964 969	进步之基石
+T6	Branch 970 975	前进之风帆
+R3	Parallel Arg1:T4 Arg2:T5	
+R4	Parallel Arg1:T5 Arg2:T6	
+T7	Finished 0 12	<Paragraph 1

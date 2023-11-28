@@ -1,0 +1,19 @@
+T3	Branch 1042 1051	比萨塔的倾斜是缺陷
+T4	Branch 1052 1061	圆明园的凄凉是缺陷
+T5	Branch 1062 1072	维纳斯的断臂亦是缺陷
+T6	Branch 956 967	月儿无法永圆不缺是缺陷
+T7	Branch 968 979	花开无法永开不败是缺陷
+T8	Branch 980 992	天空不能永保湛蓝亦是遗憾
+R2	Parallel Arg1:T6 Arg2:T7	
+R3	Parallel Arg1:T7 Arg2:T8	
+R4	Parallel Arg1:T3 Arg2:T4	
+R5	Parallel Arg1:T4 Arg2:T5	
+T1	Branch 253 261	美丽怡人的夏威夷
+T2	Branch 262 270	风光无限的威尼斯
+T9	Branch 273 280	冰天雪地的两极
+T10	Branch 281 288	不断喷发的火山
+T11	Branch 289 299	惊心动魄的海啸和地震
+R1	Parallel Arg1:T9 Arg2:T10	
+R6	Parallel Arg1:T10 Arg2:T11	
+R7	Parallel Arg1:T1 Arg2:T2	
+T12	Finished 14 17	缺陷美

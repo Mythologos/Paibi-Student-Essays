@@ -1,0 +1,6 @@
+T1	Branch 87 102	车辆顺利的通过不能没有平直道路
+T2	Branch 103 116	城市的整洁不能没有环卫工人
+R1	Parallel Arg1:T1 Arg2:T2	
+T3	Branch 204 222	如果没有绿化工人哪里有城市的生机盎然
+T4	Branch 223 240	如果没有环卫工人哪有城市的工净整洁
+R2	Parallel Arg1:T3 Arg2:T4	

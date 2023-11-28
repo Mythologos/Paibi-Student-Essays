@@ -1,0 +1,10 @@
+T1	Branch 815 821	春去夏来之时
+T2	Branch 822 828	满园芬芳之时
+R1	Parallel Arg1:T1 Arg2:T2	
+T3	Branch 829 835	阳光沐浴大地
+T4	Branch 836 842	雨水清洗草茎
+T5	Branch 843 849	乌云遮蔽艳阳
+T6	Branch 850 856	鸟儿做伴歌唱
+R2	Parallel Arg1:T3 Arg2:T4	
+R3	Parallel Arg1:T4 Arg2:T5	
+R4	Parallel Arg1:T5 Arg2:T6	

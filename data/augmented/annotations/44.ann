@@ -1,0 +1,11 @@
+T1	Branch 334 340	鸦有反哺之情
+T2	Branch 341 347	羊有跪乳之恩
+T3	Branch 1148 1152	学会感恩
+T4	Branch 1153 1164	学会用花一样的笑脸回报
+T5	Branch 1165 1177	学会用落叶一样的温暖感恩
+T6	Branch 1178 1190	学会用小溪般的欢乐来感恩
+R1	Parallel Arg1:T3 Arg2:T4	
+R2	Parallel Arg1:T4 Arg2:T5	
+R3	Parallel Arg1:T5 Arg2:T6	
+R4	Parallel Arg1:T1 Arg2:T2	
+T7	Finished 0 13	<Paragraph 1>

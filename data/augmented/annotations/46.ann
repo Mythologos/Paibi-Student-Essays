@@ -1,0 +1,8 @@
+T1	Branch 962 996	感恩，便是在每个节目来临的时候给曾经教导过你的老师发出的一条祝福短信
+T2	Branch 997 1029	感恩，便是对父母一句真诚的爱，以及在他们疲累的时候承担的一次家务
+R1	Parallel Arg1:T1 Arg2:T2	
+T3	Branch 395 404	在父母的哺育下成长
+T4	Branch 415 424	在朋友的陪伴下勇敢
+T5	Branch 405 414	在老师的教导下懂事
+R2	Parallel Arg1:T3 Arg2:T5	
+R3	Parallel Arg1:T5 Arg2:T4	

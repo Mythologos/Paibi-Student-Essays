@@ -1,0 +1,17 @@
+T1	Branch 848 867	因有了敬业精神，“染色馒头”才得以扼止
+T2	Branch 868 904	因有了“敬业精神”，苏丹红粗制加工用品才被人们唾弃，而制出更好的食物用品
+R1	Parallel Arg1:T1 Arg2:T2	
+T3	Branch 135 161	因为有敬业精神，老王在去医院打工时才会把爱撒满了医院
+T4	Branch 112 134	因为有敬业精神，农民工老王才不顾病痛重迈工地
+R2	Parallel Arg1:T4 Arg2:T3	
+T5	Branch 74 83	敬业又化作浩浩江水
+T6	Branch 57 73	敬业是融入血中而贯通全身心的精神
+T7	Branch 40 56	敬业是从青丝三千到双鬓斑白的不悔
+R3	Parallel Arg1:T7 Arg2:T6	
+R4	Parallel Arg1:T6 Arg2:T5	
+T8	Finished 0 13	<Paragraph 1>
+T9	Branch 568 580	即使你要到深山之处去考察
+T10	Branch 581 593	即使你要考察之地人迹罕至
+T11	Branch 594 614	即使你已陷入猎人为捕野鹿的陷阱而身负重伤
+R5	Parallel Arg1:T9 Arg2:T10	
+R6	Parallel Arg1:T10 Arg2:T11	

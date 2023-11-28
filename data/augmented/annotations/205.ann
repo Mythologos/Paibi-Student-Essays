@@ -1,0 +1,10 @@
+T1	Branch 791 806	我有一双隐形的翅膀，它给我希望
+T2	Branch 807 824	我有一双隐形的翅膀，它带我飞向远方
+T3	Branch 825 840	我又一双隐形的翅膀，它给我力量
+T4	Branch 848 852	给我力量
+T5	Branch 853 857	给我支持
+T6	Branch 859 875	带我飞向那片属于我自己的广阔天空
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+R3	Parallel Arg1:T4 Arg2:T5	
+R4	Parallel Arg1:T5 Arg2:T6	

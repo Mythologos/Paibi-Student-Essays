@@ -1,0 +1,10 @@
+T1	Branch 253 262	是理想点燃星星之火
+T2	Branch 263 272	是理想洗去茫茫尘埃
+T3	Branch 273 294	是理想让我们一眼望断天涯路，开始追寻的旅途
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+T4	Branch 953 957	收获理想
+T5	Branch 958 962	收获奋斗
+T6	Branch 963 972	收获一段诗意的人生
+R3	Parallel Arg1:T4 Arg2:T5	
+R4	Parallel Arg1:T5 Arg2:T6	

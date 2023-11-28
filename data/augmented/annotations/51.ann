@@ -1,0 +1,8 @@
+T1	Branch 86 93	爱就在我们身边
+T2	Branch 80 85	爱无私不在
+T3	Branch 74 79	爱是伟大的
+T4	Branch 68 73	爱是无私的
+R1	Parallel Arg1:T4 Arg2:T3	
+R2	Parallel Arg1:T3 Arg2:T2	
+R3	Parallel Arg1:T2 Arg2:T1	
+T5	Finished 0 13	<Paragraph 1>

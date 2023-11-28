@@ -1,0 +1,13 @@
+T1	Branch 1028 1036	一杯水是一丝甘甜
+T2	Branch 1037 1045	一树则是一片阴凉
+R1	Parallel Arg1:T1 Arg2:T2	
+T3	Branch 1178 1185	传递玫瑰的芬芳
+T4	Branch 1186 1193	传递清水的甘甜
+T5	Branch 1194 1200	传递着树阴凉
+R2	Parallel Arg1:T3 Arg2:T4	
+R3	Parallel Arg1:T4 Arg2:T5	
+T6	Branch 1204 1212	玫瑰芬芳留在手中
+T7	Branch 1213 1221	清水的甘甜在嘴中
+T8	Branch 1222 1228	树阴凉在心中
+R4	Parallel Arg1:T6 Arg2:T7	
+R5	Parallel Arg1:T7 Arg2:T8	

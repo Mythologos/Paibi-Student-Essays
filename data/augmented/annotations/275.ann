@@ -1,0 +1,20 @@
+T1	Branch 44 49	是一种文明
+T2	Branch 50 55	是一种道德
+T3	Branch 56 61	是一种文化
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+T4	Branch 745 749	一种风度
+T5	Branch 750 754	一种品味
+T6	Branch 755 759	一种人格
+T7	Branch 765 783	“让”可使扭曲的心灵回归到正确的轨道
+T8	Branch 784 804	“让”可使今日的辉煌为明日的发展打下基础
+T9	Branch 805 827	“让”可使阴暗的天空充满阳光并发出迷人的色彩
+R3	Parallel Arg1:T4 Arg2:T5	
+R4	Parallel Arg1:T5 Arg2:T6	
+R5	Parallel Arg1:T7 Arg2:T8	
+R6	Parallel Arg1:T8 Arg2:T9	
+T10	Branch 904 916	没有一只鸟的树林不成树林
+T11	Branch 917 929	没有一滴水的江河不成江河
+T12	Branch 930 943	没有一点“让”的社会不成社
+R7	Parallel Arg1:T10 Arg2:T11	
+R8	Parallel Arg1:T11 Arg2:T12	

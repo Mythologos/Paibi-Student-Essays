@@ -1,0 +1,13 @@
+T1	Branch 911 916	有站着的人
+T2	Branch 917 922	有躺着的人
+T3	Branch 923 928	有跑着的人
+T4	Branch 929 934	有醒着的人
+T5	Branch 935 940	有醉着的人
+T6	Branch 941 948	有奴颜婢膝的人
+T7	Branch 949 956	有刚正不阿的人
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+R3	Parallel Arg1:T3 Arg2:T4	
+R4	Parallel Arg1:T4 Arg2:T5	
+R5	Parallel Arg1:T5 Arg2:T6	
+R6	Parallel Arg1:T6 Arg2:T7	

@@ -1,0 +1,9 @@
+T1	Branch 545 551	对光明的坚守
+T2	Branch 552 558	对未来的憧憬
+R1	Parallel Arg1:T1 Arg2:T2	
+T3	Finished 0 13	<Paragraph 1>
+T4	Branch 286 291	对民族的爱
+T5	Branch 292 297	对青年的爱
+T6	Branch 298 305	对祖国未来的爱
+R2	Parallel Arg1:T4 Arg2:T5	
+R3	Parallel Arg1:T5 Arg2:T6	

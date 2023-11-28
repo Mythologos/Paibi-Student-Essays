@@ -1,0 +1,16 @@
+T1	Branch 77 84	感恩是美丽彩虹
+T2	Branch 85 92	感恩是人间大爱
+T3	Branch 69 76	感恩是冬日阳光
+R1	Parallel Arg1:T3 Arg2:T1	
+R2	Parallel Arg1:T1 Arg2:T2	
+T4	Branch 871 881	感恩我们未知的陌生人
+T5	Branch 866 870	感恩同学
+T6	Branch 861 865	感恩朋友
+T7	Branch 856 860	感恩老师
+T8	Branch 851 855	感恩家人
+R3	Parallel Arg1:T8 Arg2:T7	
+R4	Parallel Arg1:T7 Arg2:T6	
+R5	Parallel Arg1:T6 Arg2:T5	
+R6	Parallel Arg1:T5 Arg2:T4	
+T9	Finished 0 5	<Para
+T10	Finished 7 13	aph 1>

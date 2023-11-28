@@ -128,9 +128,13 @@ In order to keep parallelisms local within the data, the parallelisms retained i
 In other words, all `out` parallelisms (roughly 250 of them) are excluded. 
 Simultaneously, to achieve higher granularity with regard to parallelisms in the data, we took two steps.
 1. First, we annotated all `inSentenceBIE` tags to label the locations of internal branches.
-Five annotators collectively performed this process on approximately 250 sentences, 
-and their instructions for doing so via the `brat` annotation tool (Stenetorp *et al.* 2012) are given in the PDF located in the `data/augmented/procedure` subdirectory.
+Five annotators collectively performed this process on approximately 250 sentences.
+   - Their instructions for doing so via the `brat` annotation tool (Stenetorp *et al.* 2012) are given in the PDF located in the `data/augmented/procedure` subdirectory. 
+   - The actual annotations, in `.txt` and `.ann` file pairs, are given in the `data/augmented/annotations` subdirectory. 
+   - We report any errors or manual changes made to the annotations or data in the `errata.txt` file in the same folder as the annotation instructions. 
 2. Second, we excluded all punctuation from the ends of parallelisms, as these are not critical to parallel structure: we argue that they only serve the role of delimiting sentences from one another.
+
+For more information about how the annotations and original data were combined, see the `pse_format_converter.py` file in the [Intro-RPD](https://github.com/Mythologos/Intro-RPD) repository.
 
 #### Other Metadata
 

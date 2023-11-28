@@ -1,0 +1,11 @@
+T1	Branch 226 248	有了“我报路长嗟日暮，学诗谩有惊人句”的才气
+T2	Branch 249 265	有了“坐看云起，傲视群雄”的豪气
+T3	Branch 266 289	也有了“天生我材必有用，千金散尽还复来”的傲气
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+T4	Finished 0 13	<Paragraph 1>
+T5	Branch 324 337;338 355	感知“海纳百川，有容乃大； >>> 壁立千仞，无欲则刚”的震撼
+T6	Branch 356 371	赞佩“待从头收拾旧山河”的豪迈
+T7	Branch 372 394	心颤“飞流直下三千尺，疑是银河落九天”的壮阔
+R3	Parallel Arg1:T5 Arg2:T6	
+R4	Parallel Arg1:T6 Arg2:T7	

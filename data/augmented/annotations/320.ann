@@ -1,0 +1,10 @@
+T1	Branch 187 197	看窗外的果树慢慢长高
+T2	Branch 198 208	赏路边的花朵慢慢美丽
+T3	Branch 209 218	聆听小雨细细的响声
+T4	Branch 230 238	水稻由碧绿到金黄
+T5	Branch 239 247	小蚕由蚕子到成蝶
+T6	Branch 248 257	丑小鸭变成了小天鹅
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+R3	Parallel Arg1:T4 Arg2:T5	
+R4	Parallel Arg1:T5 Arg2:T6	

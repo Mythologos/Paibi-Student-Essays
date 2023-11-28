@@ -1,0 +1,10 @@
+T1	Branch 111 118	感恩是一种美德
+T2	Branch 119 126	感父母养育之恩
+T3	Branch 127 134	感老师授习之恩
+T4	Branch 136 143	感祖国怀抱之恩
+T5	Branch 145 152	感恩是一种回报
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+R3	Parallel Arg1:T4 Arg2:T3	
+R4	Parallel Arg1:T5 Arg2:T4	
+T6	Finished 0 13	<Paragraph 1>

@@ -1,0 +1,6 @@
+T1	Branch 48 59	当别人为你照亮前方的路
+T2	Branch 60 71	当别人为你扫去前进石子
+T3	Branch 72 97	当别人为你伸出援助之手让你在前进时不再迷茫与慌张时
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+T4	Finished 0 13	<Paragraph 1>

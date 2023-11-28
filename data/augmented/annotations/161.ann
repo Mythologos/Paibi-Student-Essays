@@ -1,0 +1,10 @@
+T1	Branch 150 161	是春日里唤醒万物的春光
+T2	Branch 162 175	是雨夜里一缕明灭却温暖的光
+T3	Branch 176 188	是冬日里一杯冒着热气的茶
+R1	Parallel Arg1:T1 Arg2:T2	
+R2	Parallel Arg1:T2 Arg2:T3	
+T4	Branch 892 902	是佛祖割肉喂鹰的善举
+T5	Branch 903 916	是史怀哲投身非洲医疗的行动
+T6	Branch 917 928	是甘地为解救人民的悲悯
+R3	Parallel Arg1:T4 Arg2:T5	
+R4	Parallel Arg1:T5 Arg2:T6	

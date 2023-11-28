@@ -1,0 +1,12 @@
+T1	Branch 1003 1007	感恩生活
+T2	Branch 998 1002	感恩老师
+T3	Branch 993 997	感恩父母
+T4	Branch 988 992	感恩祖国
+T5	Branch 983 987	感恩社会
+R1	Parallel Arg1:T5 Arg2:T4	
+R2	Parallel Arg1:T4 Arg2:T3	
+R3	Parallel Arg1:T3 Arg2:T2	
+R4	Parallel Arg1:T2 Arg2:T1	
+T6	Finished 0 13	<Paragraph 1>
+T7	Branch 1008 1016	感恩所拥有的一切
+R5	Parallel Arg1:T1 Arg2:T7	
